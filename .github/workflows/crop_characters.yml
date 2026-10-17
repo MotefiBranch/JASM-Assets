@@ -2,7 +2,7 @@ name: Sync Character Assets & Icons
 
 on:
   schedule:
-    - cron: '0 4 * * *' # Run daily at 04:00 UTC
+    - cron: '*/30 * * * *' # Run every 30 minutes
   workflow_dispatch: # Allow manual trigger
 
 permissions:
