@@ -129,9 +129,10 @@
           "gameBananaCategoryId": 42728,
           "imagePath": "Images/Endfield/chen_qianyu.png",
           "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Endfield/chen_qianyu.png",
-          "sha256": "a6e66b722fa52fecb516d12195e24336d083ec6d28da8593d4bf97ed9b4233eb",
-          "assetQuality": "thumbnail",
+          "sha256": "d5636dc68177b57919144297e228a696fadf9d0b4d3525e6897165cb88593402",
+          "assetQuality": "official_avatar",
           "keys": [
+            "chenqianyu",
             "chen_qianyu",
             "chen qianyu"
           ]
@@ -142,9 +143,10 @@
           "gameBananaCategoryId": 42729,
           "imagePath": "Images/Endfield/da_pan.png",
           "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Endfield/da_pan.png",
-          "sha256": "d7f5e51c56c185fd6f9f871c5ebf52515a11f075a87afffa982c3a66f4188349",
-          "assetQuality": "thumbnail",
+          "sha256": "cc9ea7ba8b4e0dfbc68b6637e73acf9d03f2da6e749076509277361dcacde370",
+          "assetQuality": "official_avatar",
           "keys": [
+            "dapan",
             "da_pan",
             "da pan"
           ]
@@ -246,11 +248,12 @@
           "gameBananaCategoryId": 42735,
           "imagePath": "Images/Endfield/last_rite.png",
           "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Endfield/last_rite.png",
-          "sha256": "fe869aba83c2a8788ae6409b9e263014039bc6489c118d585b0b8f09eb3af498",
-          "assetQuality": "thumbnail",
+          "sha256": "17ea6f7911c828aeee01696316faebeb878646c7756d275dabca6aef1b5d2a2c",
+          "assetQuality": "official_avatar",
           "keys": [
-            "last_rite",
-            "last rite"
+            "last rite",
+            "lastrite",
+            "last_rite"
           ]
         },
         {
@@ -285,11 +288,12 @@
           "gameBananaCategoryId": 46272,
           "imagePath": "Images/Endfield/mi_fu.png",
           "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Endfield/mi_fu.png",
-          "sha256": "02ed01fe395e01c76ace138d85d5c81d1766e2eb74f52c695e3352cf82688031",
-          "assetQuality": "thumbnail",
+          "sha256": "19f14a40e181d735291292f5f157416b8562193ab3bff68efb0d0ffe151c88ee",
+          "assetQuality": "official_avatar",
           "keys": [
-            "mi_fu",
-            "mi fu"
+            "mifu",
+            "mi fu",
+            "mi_fu"
           ]
         },
         {
@@ -441,11 +445,12 @@
           "gameBananaCategoryId": 44984,
           "imagePath": "Images/Endfield/zhuang_fangyi.png",
           "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Endfield/zhuang_fangyi.png",
-          "sha256": "cd61e79a5f1161a427463b526e5854f000eb9d700e3d2fadff9845ec822a9f15",
-          "assetQuality": "thumbnail",
+          "sha256": "9ea488ce1c92ede1e449bf227cfd230f186da1fbb8a77fe482880659aa22f337",
+          "assetQuality": "official_avatar",
           "keys": [
-            "zhuang_fangyi",
-            "zhuang fangyi"
+            "zhuang fangyi",
+            "zhuangfangyi",
+            "zhuang_fangyi"
           ]
         }
       ]
