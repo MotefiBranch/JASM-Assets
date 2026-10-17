@@ -201,6 +201,9 @@ def generate_manifest_record(
     sha256 = hashlib.sha256(png_bytes).hexdigest()
     image_path = f"Images/{game_name}/{internal_name}.png"
 
+    slug = re.sub(r"[^\w]", "", name.lower())
+    keys = list(dict.fromkeys([internal_name, name.lower(), slug]))
+
     return {
         "internalName": internal_name,
         "displayName": name,
@@ -209,7 +212,7 @@ def generate_manifest_record(
         "imageUrl": f"https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/{image_path}",
         "sha256": sha256,
         "assetQuality": quality,
-        "keys": [internal_name, name.lower()],
+        "keys": keys,
     }
 
 
