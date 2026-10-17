@@ -1,0 +1,3241 @@
+{
+  "version": 1,
+  "updatedAt": "2026-10-17T21:05:54Z",
+  "games": {
+    "Endfield": {
+      "gameId": 21842,
+      "charactersRootCategoryId": 42770,
+      "characters": [
+        {
+          "internalName": "akekuri",
+          "displayName": "Akekuri",
+          "gameBananaCategoryId": 42721,
+          "imagePath": "Images/Endfield/akekuri.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Endfield/akekuri.png",
+          "sha256": "1a41c28ca7282a526133f9c9275213be3e19748579fa68bcad02ae9ca1df3821",
+          "assetQuality": "thumbnail",
+          "keys": [
+            "akekuri",
+            "akekuri"
+          ]
+        },
+        {
+          "internalName": "alesh",
+          "displayName": "Alesh",
+          "gameBananaCategoryId": 42722,
+          "imagePath": "Images/Endfield/alesh.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Endfield/alesh.png",
+          "sha256": "9d2b6a3506849c1574db21c44e485f984c1a8655bf9e3d168f89bf1bb95ab8ab",
+          "assetQuality": "thumbnail",
+          "keys": [
+            "alesh",
+            "alesh"
+          ]
+        },
+        {
+          "internalName": "antal",
+          "displayName": "Antal",
+          "gameBananaCategoryId": 42723,
+          "imagePath": "Images/Endfield/antal.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Endfield/antal.png",
+          "sha256": "9e79618de218e087d26760c3e342fc97adc1e22f8f54f2599978ebc5411f06af",
+          "assetQuality": "thumbnail",
+          "keys": [
+            "antal",
+            "antal"
+          ]
+        },
+        {
+          "internalName": "arcane",
+          "displayName": "Arcane",
+          "gameBananaCategoryId": 47395,
+          "imagePath": "Images/Endfield/arcane.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Endfield/arcane.png",
+          "sha256": "8d56b074de9f2d1946c6df779cc3af421b00e3312e6ffc545e18951a3be79c62",
+          "assetQuality": "thumbnail",
+          "keys": [
+            "arcane",
+            "arcane"
+          ]
+        },
+        {
+          "internalName": "arclight",
+          "displayName": "Arclight",
+          "gameBananaCategoryId": 42724,
+          "imagePath": "Images/Endfield/arclight.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Endfield/arclight.png",
+          "sha256": "b2eb9ac50663dc0f0560db3e70dc3f95cd01103e363770f8e549284aea594211",
+          "assetQuality": "thumbnail",
+          "keys": [
+            "arclight",
+            "arclight"
+          ]
+        },
+        {
+          "internalName": "ardelia",
+          "displayName": "Ardelia",
+          "gameBananaCategoryId": 42725,
+          "imagePath": "Images/Endfield/ardelia.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Endfield/ardelia.png",
+          "sha256": "41769e78d0b7a8c7cbab811391afb42bab9044992bb8e870f1c86f636bdb8280",
+          "assetQuality": "thumbnail",
+          "keys": [
+            "ardelia",
+            "ardelia"
+          ]
+        },
+        {
+          "internalName": "avywenna",
+          "displayName": "Avywenna",
+          "gameBananaCategoryId": 42726,
+          "imagePath": "Images/Endfield/avywenna.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Endfield/avywenna.png",
+          "sha256": "314652b24b48b98048167f403994e0af6156ea38a5dcd6921be27507b82ae275",
+          "assetQuality": "thumbnail",
+          "keys": [
+            "avywenna",
+            "avywenna"
+          ]
+        },
+        {
+          "internalName": "camille",
+          "displayName": "Camille",
+          "gameBananaCategoryId": 46924,
+          "imagePath": "Images/Endfield/camille.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Endfield/camille.png",
+          "sha256": "fd6ba5eb4df27c3333e770bd468ebcd0a087dfa0ddddbc8a324a032760b0c8fb",
+          "assetQuality": "thumbnail",
+          "keys": [
+            "camille",
+            "camille"
+          ]
+        },
+        {
+          "internalName": "catcher",
+          "displayName": "Catcher",
+          "gameBananaCategoryId": 42727,
+          "imagePath": "Images/Endfield/catcher.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Endfield/catcher.png",
+          "sha256": "84ed4b9233eac91106e9706027588e1c5ac7ec912131eb4530e62c27fe8b6338",
+          "assetQuality": "thumbnail",
+          "keys": [
+            "catcher",
+            "catcher"
+          ]
+        },
+        {
+          "internalName": "chen_qianyu",
+          "displayName": "Chen Qianyu",
+          "gameBananaCategoryId": 42728,
+          "imagePath": "Images/Endfield/chen_qianyu.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Endfield/chen_qianyu.png",
+          "sha256": "a6e66b722fa52fecb516d12195e24336d083ec6d28da8593d4bf97ed9b4233eb",
+          "assetQuality": "thumbnail",
+          "keys": [
+            "chen_qianyu",
+            "chen qianyu"
+          ]
+        },
+        {
+          "internalName": "da_pan",
+          "displayName": "Da Pan",
+          "gameBananaCategoryId": 42729,
+          "imagePath": "Images/Endfield/da_pan.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Endfield/da_pan.png",
+          "sha256": "d7f5e51c56c185fd6f9f871c5ebf52515a11f075a87afffa982c3a66f4188349",
+          "assetQuality": "thumbnail",
+          "keys": [
+            "da_pan",
+            "da pan"
+          ]
+        },
+        {
+          "internalName": "ember",
+          "displayName": "Ember",
+          "gameBananaCategoryId": 42730,
+          "imagePath": "Images/Endfield/ember.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Endfield/ember.png",
+          "sha256": "8969fddcc13188c7da17b30137dda24fae0e05c93ddf4cd1abcad47920553bd6",
+          "assetQuality": "thumbnail",
+          "keys": [
+            "ember",
+            "ember"
+          ]
+        },
+        {
+          "internalName": "endministrator_f",
+          "displayName": "Endministrator (F)",
+          "gameBananaCategoryId": 42719,
+          "imagePath": "Images/Endfield/endministrator_f.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Endfield/endministrator_f.png",
+          "sha256": "7784339195d4cca170d0379424fbd38bbaf5f772d4d98c37b0a71ecb0f398529",
+          "assetQuality": "thumbnail",
+          "keys": [
+            "endministrator_f",
+            "endministrator (f)"
+          ]
+        },
+        {
+          "internalName": "endministrator_m",
+          "displayName": "Endministrator (M)",
+          "gameBananaCategoryId": 42720,
+          "imagePath": "Images/Endfield/endministrator_m.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Endfield/endministrator_m.png",
+          "sha256": "190f6dc92a77624eb09a6ac60ea3029178a5a87ff6b098b83f7d87829b088137",
+          "assetQuality": "thumbnail",
+          "keys": [
+            "endministrator_m",
+            "endministrator (m)"
+          ]
+        },
+        {
+          "internalName": "estella",
+          "displayName": "Estella",
+          "gameBananaCategoryId": 42731,
+          "imagePath": "Images/Endfield/estella.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Endfield/estella.png",
+          "sha256": "e2f8f2ca7a6203e5b32d9480639cfe44a5b5ac06475a6a19a458ae6cd87f53e7",
+          "assetQuality": "thumbnail",
+          "keys": [
+            "estella",
+            "estella"
+          ]
+        },
+        {
+          "internalName": "fluorite",
+          "displayName": "Fluorite",
+          "gameBananaCategoryId": 42732,
+          "imagePath": "Images/Endfield/fluorite.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Endfield/fluorite.png",
+          "sha256": "06a73d4b9e43dd66f4288eed3848429b2b71c505bda889e4cb3b918d4a648e11",
+          "assetQuality": "thumbnail",
+          "keys": [
+            "fluorite",
+            "fluorite"
+          ]
+        },
+        {
+          "internalName": "gilberta",
+          "displayName": "Gilberta",
+          "gameBananaCategoryId": 42733,
+          "imagePath": "Images/Endfield/gilberta.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Endfield/gilberta.png",
+          "sha256": "4fb43342c123c65940d37711ee867419744eb269f5ca0fc826935dfad72a6175",
+          "assetQuality": "thumbnail",
+          "keys": [
+            "gilberta",
+            "gilberta"
+          ]
+        },
+        {
+          "internalName": "laevatain",
+          "displayName": "Laevatain",
+          "gameBananaCategoryId": 42734,
+          "imagePath": "Images/Endfield/laevatain.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Endfield/laevatain.png",
+          "sha256": "9fd9dc0a83c4a587b053ece99e744d49b554eaa2d7ae7cd6967bea04df2c3477",
+          "assetQuality": "thumbnail",
+          "keys": [
+            "laevatain",
+            "laevatain"
+          ]
+        },
+        {
+          "internalName": "last_rite",
+          "displayName": "Last Rite",
+          "gameBananaCategoryId": 42735,
+          "imagePath": "Images/Endfield/last_rite.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Endfield/last_rite.png",
+          "sha256": "fe869aba83c2a8788ae6409b9e263014039bc6489c118d585b0b8f09eb3af498",
+          "assetQuality": "thumbnail",
+          "keys": [
+            "last_rite",
+            "last rite"
+          ]
+        },
+        {
+          "internalName": "lifeng",
+          "displayName": "Lifeng",
+          "gameBananaCategoryId": 42736,
+          "imagePath": "Images/Endfield/lifeng.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Endfield/lifeng.png",
+          "sha256": "64a17be9c23d1c9b8ed372970768390b932248d09e0c9ce192406f96a4a6d8a4",
+          "assetQuality": "thumbnail",
+          "keys": [
+            "lifeng",
+            "lifeng"
+          ]
+        },
+        {
+          "internalName": "liino",
+          "displayName": "Liino",
+          "gameBananaCategoryId": 48075,
+          "imagePath": "Images/Endfield/liino.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Endfield/liino.png",
+          "sha256": "da4b8f3be6594a581c47ab614a179fe34e36b89e17b78d0c641e043f22f3f4cb",
+          "assetQuality": "thumbnail",
+          "keys": [
+            "liino",
+            "liino"
+          ]
+        },
+        {
+          "internalName": "mi_fu",
+          "displayName": "Mi Fu",
+          "gameBananaCategoryId": 46272,
+          "imagePath": "Images/Endfield/mi_fu.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Endfield/mi_fu.png",
+          "sha256": "02ed01fe395e01c76ace138d85d5c81d1766e2eb74f52c695e3352cf82688031",
+          "assetQuality": "thumbnail",
+          "keys": [
+            "mi_fu",
+            "mi fu"
+          ]
+        },
+        {
+          "internalName": "perlica",
+          "displayName": "Perlica",
+          "gameBananaCategoryId": 42737,
+          "imagePath": "Images/Endfield/perlica.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Endfield/perlica.png",
+          "sha256": "bc58d1244256da145cc82d5c741b60a3d7e3787427dfc3e11a34959a8df2643e",
+          "assetQuality": "thumbnail",
+          "keys": [
+            "perlica",
+            "perlica"
+          ]
+        },
+        {
+          "internalName": "pogranichnik",
+          "displayName": "Pogranichnik",
+          "gameBananaCategoryId": 42738,
+          "imagePath": "Images/Endfield/pogranichnik.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Endfield/pogranichnik.png",
+          "sha256": "b9e45de2ad5439230690374fc4542d0c19d4a258829d92454f32ad32bb2a6291",
+          "assetQuality": "thumbnail",
+          "keys": [
+            "pogranichnik",
+            "pogranichnik"
+          ]
+        },
+        {
+          "internalName": "purrchena",
+          "displayName": "Purrchena",
+          "gameBananaCategoryId": 50304,
+          "imagePath": "Images/Endfield/purrchena.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Endfield/purrchena.png",
+          "sha256": "3cf1b01ddc16fe60fcc39af67efe38423054ed377d0e59b9a97958186701d330",
+          "assetQuality": "thumbnail",
+          "keys": [
+            "purrchena",
+            "purrchena"
+          ]
+        },
+        {
+          "internalName": "rossi",
+          "displayName": "Rossi",
+          "gameBananaCategoryId": 44510,
+          "imagePath": "Images/Endfield/rossi.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Endfield/rossi.png",
+          "sha256": "db260ef0b526f0a9943fe25e3c5033509c2d73df16b27bfe297fd89afbd5e078",
+          "assetQuality": "thumbnail",
+          "keys": [
+            "rossi",
+            "rossi"
+          ]
+        },
+        {
+          "internalName": "si",
+          "displayName": "Si",
+          "gameBananaCategoryId": 50297,
+          "imagePath": "Images/Endfield/si.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Endfield/si.png",
+          "sha256": "d8fe3663ee16db5abfda848b8781805f0e2369c0f843a03d6e14becb90a19868",
+          "assetQuality": "thumbnail",
+          "keys": [
+            "si",
+            "si"
+          ]
+        },
+        {
+          "internalName": "snowshine",
+          "displayName": "Snowshine",
+          "gameBananaCategoryId": 42739,
+          "imagePath": "Images/Endfield/snowshine.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Endfield/snowshine.png",
+          "sha256": "67a0548c9fd1b7e65cefacd9f2fc7edc424d252f908b347e55648396c434d806",
+          "assetQuality": "thumbnail",
+          "keys": [
+            "snowshine",
+            "snowshine"
+          ]
+        },
+        {
+          "internalName": "tangtang",
+          "displayName": "Tangtang",
+          "gameBananaCategoryId": 44247,
+          "imagePath": "Images/Endfield/tangtang.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Endfield/tangtang.png",
+          "sha256": "e66df40394e082b57b2ee642d4324cb1d0ee8beb903e3ad83791182e6e166f52",
+          "assetQuality": "thumbnail",
+          "keys": [
+            "tangtang",
+            "tangtang"
+          ]
+        },
+        {
+          "internalName": "typhoeus",
+          "displayName": "Typhoeus",
+          "gameBananaCategoryId": 48868,
+          "imagePath": "Images/Endfield/typhoeus.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Endfield/typhoeus.png",
+          "sha256": "85a523f3e5be28775e601e1dba9d506b1639a13818f0701d34a1de9c547fa4de",
+          "assetQuality": "thumbnail",
+          "keys": [
+            "typhoeus",
+            "typhoeus"
+          ]
+        },
+        {
+          "internalName": "wulfgard",
+          "displayName": "Wulfgard",
+          "gameBananaCategoryId": 42740,
+          "imagePath": "Images/Endfield/wulfgard.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Endfield/wulfgard.png",
+          "sha256": "d134bd3f4534ba1365a637e86f5321b2bc13ee94efbd5b3277dea03be7a5415b",
+          "assetQuality": "thumbnail",
+          "keys": [
+            "wulfgard",
+            "wulfgard"
+          ]
+        },
+        {
+          "internalName": "xaihi",
+          "displayName": "Xaihi",
+          "gameBananaCategoryId": 42741,
+          "imagePath": "Images/Endfield/xaihi.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Endfield/xaihi.png",
+          "sha256": "7563dae81df86a85b626412ca400d5178e70e2d714158da4ca4dce4afb83bf20",
+          "assetQuality": "thumbnail",
+          "keys": [
+            "xaihi",
+            "xaihi"
+          ]
+        },
+        {
+          "internalName": "yvonne",
+          "displayName": "Yvonne",
+          "gameBananaCategoryId": 42742,
+          "imagePath": "Images/Endfield/yvonne.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Endfield/yvonne.png",
+          "sha256": "13ca5d84ddd112082f284ae06550471c7963a304f2f0b5f611f5d1388300030e",
+          "assetQuality": "thumbnail",
+          "keys": [
+            "yvonne",
+            "yvonne"
+          ]
+        },
+        {
+          "internalName": "zhuang_fangyi",
+          "displayName": "Zhuang Fangyi",
+          "gameBananaCategoryId": 44984,
+          "imagePath": "Images/Endfield/zhuang_fangyi.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Endfield/zhuang_fangyi.png",
+          "sha256": "cd61e79a5f1161a427463b526e5854f000eb9d700e3d2fadff9845ec822a9f15",
+          "assetQuality": "thumbnail",
+          "keys": [
+            "zhuang_fangyi",
+            "zhuang fangyi"
+          ]
+        }
+      ]
+    },
+    "NTE": {
+      "gameId": 23012,
+      "charactersRootCategoryId": 37906,
+      "characters": [
+        {
+          "internalName": "adler",
+          "displayName": "Adler",
+          "gameBananaCategoryId": 43034,
+          "imagePath": "Images/NTE/adler.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/NTE/adler.png",
+          "sha256": "746398070a5d2e19e88390f6d5a43d5d76dd68128e8081064a61dc2c0f464e5a",
+          "assetQuality": "thumbnail",
+          "keys": [
+            "adler",
+            "adler"
+          ]
+        },
+        {
+          "internalName": "akane",
+          "displayName": "Akane",
+          "gameBananaCategoryId": 49661,
+          "imagePath": "Images/NTE/akane.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/NTE/akane.png",
+          "sha256": "2845916f16d2ee2f06fabb399bdf78fcdc8f419d5318e958f88fdf1d9869d5a0",
+          "assetQuality": "thumbnail",
+          "keys": [
+            "akane",
+            "akane"
+          ]
+        },
+        {
+          "internalName": "aurelia",
+          "displayName": "Aurelia",
+          "gameBananaCategoryId": 46387,
+          "imagePath": "Images/NTE/aurelia.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/NTE/aurelia.png",
+          "sha256": "8d90598d4b065fea69cae86b89ba7df221738071a6ac863ab199cb9be2703991",
+          "assetQuality": "thumbnail",
+          "keys": [
+            "aurelia",
+            "aurelia"
+          ]
+        },
+        {
+          "internalName": "baicang",
+          "displayName": "Baicang",
+          "gameBananaCategoryId": 43035,
+          "imagePath": "Images/NTE/baicang.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/NTE/baicang.png",
+          "sha256": "727a0aa6351f03d530e699c39a3c7369467058005c1577c58fbb09d26313e7cb",
+          "assetQuality": "thumbnail",
+          "keys": [
+            "baicang",
+            "baicang"
+          ]
+        },
+        {
+          "internalName": "blackbird",
+          "displayName": "Blackbird",
+          "gameBananaCategoryId": 49659,
+          "imagePath": "Images/NTE/blackbird.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/NTE/blackbird.png",
+          "sha256": "c61b8d4e9d04e1384e5b48a44baccc9ddbf767272e83dd343034e8d807e993f4",
+          "assetQuality": "thumbnail",
+          "keys": [
+            "blackbird",
+            "blackbird"
+          ]
+        },
+        {
+          "internalName": "chaos",
+          "displayName": "Chaos",
+          "gameBananaCategoryId": 46559,
+          "imagePath": "Images/NTE/chaos.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/NTE/chaos.png",
+          "sha256": "c767793ac013e3bd1d5771376befad286a275a3fe9ef0fc01f43daa391bc763a",
+          "assetQuality": "thumbnail",
+          "keys": [
+            "chaos",
+            "chaos"
+          ]
+        },
+        {
+          "internalName": "chiz",
+          "displayName": "Chiz",
+          "gameBananaCategoryId": 45472,
+          "imagePath": "Images/NTE/chiz.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/NTE/chiz.png",
+          "sha256": "eb171fa72da3a9376b43f679821b07b047c34672027f2874b4743c663b9506f2",
+          "assetQuality": "thumbnail",
+          "keys": [
+            "chiz",
+            "chiz"
+          ]
+        },
+        {
+          "internalName": "daffodill",
+          "displayName": "Daffodill",
+          "gameBananaCategoryId": 45474,
+          "imagePath": "Images/NTE/daffodill.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/NTE/daffodill.png",
+          "sha256": "25d607c0a2085c6d96c6b4b6ca16966032d7d606ddf6f6c913a4d2291785f26e",
+          "assetQuality": "thumbnail",
+          "keys": [
+            "daffodill",
+            "daffodill"
+          ]
+        },
+        {
+          "internalName": "edgar",
+          "displayName": "Edgar",
+          "gameBananaCategoryId": 45475,
+          "imagePath": "Images/NTE/edgar.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/NTE/edgar.png",
+          "sha256": "11cdebe20ac533fbc36abed1cf2269230075b1890b40116043750b53e0b575a9",
+          "assetQuality": "thumbnail",
+          "keys": [
+            "edgar",
+            "edgar"
+          ]
+        },
+        {
+          "internalName": "fadia",
+          "displayName": "Fadia",
+          "gameBananaCategoryId": 43036,
+          "imagePath": "Images/NTE/fadia.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/NTE/fadia.png",
+          "sha256": "2119109d034916f9b37c898c45bb254ecd1b2b4baf321a7573b87805a0d3f59c",
+          "assetQuality": "thumbnail",
+          "keys": [
+            "fadia",
+            "fadia"
+          ]
+        },
+        {
+          "internalName": "haniel",
+          "displayName": "Haniel",
+          "gameBananaCategoryId": 45473,
+          "imagePath": "Images/NTE/haniel.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/NTE/haniel.png",
+          "sha256": "d12d0fd8c1af8fc38c0cac819feab3e15595f2199a1684e97dbef622770b9cb5",
+          "assetQuality": "thumbnail",
+          "keys": [
+            "haniel",
+            "haniel"
+          ]
+        },
+        {
+          "internalName": "hathor",
+          "displayName": "Hathor",
+          "gameBananaCategoryId": 43037,
+          "imagePath": "Images/NTE/hathor.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/NTE/hathor.png",
+          "sha256": "8fd36f5f5992e65312e6c454d42034122db8a31f51a10ca65afef7c38bd0ad20",
+          "assetQuality": "thumbnail",
+          "keys": [
+            "hathor",
+            "hathor"
+          ]
+        },
+        {
+          "internalName": "hotori",
+          "displayName": "Hotori",
+          "gameBananaCategoryId": 43038,
+          "imagePath": "Images/NTE/hotori.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/NTE/hotori.png",
+          "sha256": "f6e3551931f761a9ad5e90b98c4b941036541c0f0c057233bee5fe47bdd63022",
+          "assetQuality": "thumbnail",
+          "keys": [
+            "hotori",
+            "hotori"
+          ]
+        },
+        {
+          "internalName": "iroi",
+          "displayName": "Iroi",
+          "gameBananaCategoryId": 46560,
+          "imagePath": "Images/NTE/iroi.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/NTE/iroi.png",
+          "sha256": "783b2ddec3a65019be11b65078e4bd5d778246ca765b23817a4b0d95893e1dfe",
+          "assetQuality": "thumbnail",
+          "keys": [
+            "iroi",
+            "iroi"
+          ]
+        },
+        {
+          "internalName": "jiuyuan",
+          "displayName": "Jiuyuan",
+          "gameBananaCategoryId": 45476,
+          "imagePath": "Images/NTE/jiuyuan.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/NTE/jiuyuan.png",
+          "sha256": "cdc86a495380c50f84b79a1271b910cb337f5e82bd68a3c656822558f8b190cb",
+          "assetQuality": "thumbnail",
+          "keys": [
+            "jiuyuan",
+            "jiuyuan"
+          ]
+        },
+        {
+          "internalName": "lacrimosa",
+          "displayName": "Lacrimosa",
+          "gameBananaCategoryId": 43039,
+          "imagePath": "Images/NTE/lacrimosa.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/NTE/lacrimosa.png",
+          "sha256": "3c8e49addcc7f02d4fc71e738465425a624b4443fee2df6a1145deda2604ec1a",
+          "assetQuality": "thumbnail",
+          "keys": [
+            "lacrimosa",
+            "lacrimosa"
+          ]
+        },
+        {
+          "internalName": "linko",
+          "displayName": "Linko",
+          "gameBananaCategoryId": 48013,
+          "imagePath": "Images/NTE/linko.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/NTE/linko.png",
+          "sha256": "461f68bed19eeaf744e1f400d81ae31779e907f9760aae4379e3dd21a78c5d96",
+          "assetQuality": "thumbnail",
+          "keys": [
+            "linko",
+            "linko"
+          ]
+        },
+        {
+          "internalName": "mint",
+          "displayName": "Mint",
+          "gameBananaCategoryId": 43040,
+          "imagePath": "Images/NTE/mint.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/NTE/mint.png",
+          "sha256": "fbe364233c8866796f0d8c30599cface6bc974c3591e9e9e003e4bf176f49766",
+          "assetQuality": "thumbnail",
+          "keys": [
+            "mint",
+            "mint"
+          ]
+        },
+        {
+          "internalName": "nanally",
+          "displayName": "Nanally",
+          "gameBananaCategoryId": 43041,
+          "imagePath": "Images/NTE/nanally.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/NTE/nanally.png",
+          "sha256": "dfffd8f960fc1045b896f9616c120f158d72e2c2096b3d6b05cd2626f982c6ad",
+          "assetQuality": "thumbnail",
+          "keys": [
+            "nanally",
+            "nanally"
+          ]
+        },
+        {
+          "internalName": "npcs_and_entities",
+          "displayName": "NPCs and Entities",
+          "gameBananaCategoryId": 43031,
+          "imagePath": "Images/NTE/npcs_and_entities.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/NTE/npcs_and_entities.png",
+          "sha256": "4bfc1204c69cb055788c7d4658f4d17ef30e5538cfe872612e3316025c16abd8",
+          "assetQuality": "thumbnail",
+          "keys": [
+            "npcs_and_entities",
+            "npcs and entities"
+          ]
+        },
+        {
+          "internalName": "sakiri",
+          "displayName": "Sakiri",
+          "gameBananaCategoryId": 43042,
+          "imagePath": "Images/NTE/sakiri.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/NTE/sakiri.png",
+          "sha256": "b476baace446b60dbf6b220328b42fe2f073523984b877526238ba8300fbfa40",
+          "assetQuality": "thumbnail",
+          "keys": [
+            "sakiri",
+            "sakiri"
+          ]
+        },
+        {
+          "internalName": "shinku",
+          "displayName": "Shinku",
+          "gameBananaCategoryId": 46561,
+          "imagePath": "Images/NTE/shinku.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/NTE/shinku.png",
+          "sha256": "d4feca951afc13d9422f02973cab806bac63158805d68ff854148c4181693206",
+          "assetQuality": "thumbnail",
+          "keys": [
+            "shinku",
+            "shinku"
+          ]
+        },
+        {
+          "internalName": "skia",
+          "displayName": "Skia",
+          "gameBananaCategoryId": 43043,
+          "imagePath": "Images/NTE/skia.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/NTE/skia.png",
+          "sha256": "171ecbb6f74f38e15aa2f949982dcd23b1cfe26d7fb9a330104582e06a9164e3",
+          "assetQuality": "thumbnail",
+          "keys": [
+            "skia",
+            "skia"
+          ]
+        },
+        {
+          "internalName": "zankou",
+          "displayName": "Zankou",
+          "gameBananaCategoryId": 48011,
+          "imagePath": "Images/NTE/zankou.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/NTE/zankou.png",
+          "sha256": "a7711ede4198f6713ed47226ef9a00a7d06539ca14106eee3eeaea8a9904ab5b",
+          "assetQuality": "thumbnail",
+          "keys": [
+            "zankou",
+            "zankou"
+          ]
+        },
+        {
+          "internalName": "zero_f",
+          "displayName": "Zero (F)",
+          "gameBananaCategoryId": 43032,
+          "imagePath": "Images/NTE/zero_f.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/NTE/zero_f.png",
+          "sha256": "89565a56a0fcf9a70de8eab23d987ba5f94bf7f8db394e7f9aa3712469b6ee03",
+          "assetQuality": "thumbnail",
+          "keys": [
+            "zero_f",
+            "zero (f)"
+          ]
+        },
+        {
+          "internalName": "zero_m",
+          "displayName": "Zero (M)",
+          "gameBananaCategoryId": 43033,
+          "imagePath": "Images/NTE/zero_m.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/NTE/zero_m.png",
+          "sha256": "a9371513cfebd696f91e3270ef6692834e0b9a5d1d00e7481ce19b6323e10d23",
+          "assetQuality": "thumbnail",
+          "keys": [
+            "zero_m",
+            "zero (m)"
+          ]
+        }
+      ]
+    },
+    "ZZZ": {
+      "gameId": 19482,
+      "charactersRootCategoryId": 30305,
+      "characters": [
+        {
+          "internalName": "alexandrina_sebastiane",
+          "displayName": "Alexandrina Sebastiane",
+          "gameBananaCategoryId": 30335,
+          "imagePath": "Images/ZZZ/alexandrina_sebastiane.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/ZZZ/alexandrina_sebastiane.png",
+          "sha256": "93c76b4c08528430bb1fe1d437eef543ea611d9c09b519f42e4930693e2d6aef",
+          "assetQuality": "thumbnail",
+          "keys": [
+            "alexandrina_sebastiane",
+            "alexandrina sebastiane"
+          ]
+        },
+        {
+          "internalName": "alice_thymefield",
+          "displayName": "Alice Thymefield",
+          "gameBananaCategoryId": 38196,
+          "imagePath": "Images/ZZZ/alice_thymefield.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/ZZZ/alice_thymefield.png",
+          "sha256": "7c4e1f0f2376b9d877e6ba12ae82c241c692002d18b5a1a25c6c6e57e4c05179",
+          "assetQuality": "thumbnail",
+          "keys": [
+            "alice_thymefield",
+            "alice thymefield"
+          ]
+        },
+        {
+          "internalName": "anby_demara",
+          "displayName": "Anby Demara",
+          "gameBananaCategoryId": 30336,
+          "imagePath": "Images/ZZZ/anby_demara.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/ZZZ/anby_demara.png",
+          "sha256": "3c56cb080f7a4e7eddf5ab0e4681276d470696ceb6b3670692d96698b0bc1a45",
+          "assetQuality": "thumbnail",
+          "keys": [
+            "anby_demara",
+            "anby demara"
+          ]
+        },
+        {
+          "internalName": "anton_ivanov",
+          "displayName": "Anton Ivanov",
+          "gameBananaCategoryId": 30337,
+          "imagePath": "Images/ZZZ/anton_ivanov.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/ZZZ/anton_ivanov.png",
+          "sha256": "8ea9d015b9b3f654db7ec17c00a7c57fa63308ccd24fa01935baa6a59a403c7e",
+          "assetQuality": "thumbnail",
+          "keys": [
+            "anton_ivanov",
+            "anton ivanov"
+          ]
+        },
+        {
+          "internalName": "aria",
+          "displayName": "Aria",
+          "gameBananaCategoryId": 43004,
+          "imagePath": "Images/ZZZ/aria.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/ZZZ/aria.png",
+          "sha256": "3f5dc2cb8c603361238e26d26d8b5202119b5c6eee13f9d8b0b4dcd58ab923f6",
+          "assetQuality": "thumbnail",
+          "keys": [
+            "aria",
+            "aria"
+          ]
+        },
+        {
+          "internalName": "asaba_harumasa",
+          "displayName": "Asaba Harumasa",
+          "gameBananaCategoryId": 34036,
+          "imagePath": "Images/ZZZ/asaba_harumasa.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/ZZZ/asaba_harumasa.png",
+          "sha256": "ff2f506e29c7bddebe3440658d16b18b7bc93c71cde8d4dfdc2a85f364bd9633",
+          "assetQuality": "thumbnail",
+          "keys": [
+            "asaba_harumasa",
+            "asaba harumasa"
+          ]
+        },
+        {
+          "internalName": "astra_yao",
+          "displayName": "Astra Yao",
+          "gameBananaCategoryId": 34740,
+          "imagePath": "Images/ZZZ/astra_yao.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/ZZZ/astra_yao.png",
+          "sha256": "cc344564290714d019d818fd6f7800962cdd78dfeb22d10a8ac82b7b4aa07983",
+          "assetQuality": "thumbnail",
+          "keys": [
+            "astra_yao",
+            "astra yao"
+          ]
+        },
+        {
+          "internalName": "banyue",
+          "displayName": "Banyue",
+          "gameBananaCategoryId": 41775,
+          "imagePath": "Images/ZZZ/banyue.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/ZZZ/banyue.png",
+          "sha256": "06ab45588da8f9d8acdc44d95dc1c17f86287ea69316583b64d3ecae0a7c29e9",
+          "assetQuality": "thumbnail",
+          "keys": [
+            "banyue",
+            "banyue"
+          ]
+        },
+        {
+          "internalName": "belle",
+          "displayName": "Belle",
+          "gameBananaCategoryId": 30334,
+          "imagePath": "Images/ZZZ/belle.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/ZZZ/belle.png",
+          "sha256": "bca993de9e0013d43904dcc82b7cbf3e6179ebb84059521add8aaa6b6491f846",
+          "assetQuality": "thumbnail",
+          "keys": [
+            "belle",
+            "belle"
+          ]
+        },
+        {
+          "internalName": "ben_bigger",
+          "displayName": "Ben Bigger",
+          "gameBananaCategoryId": 30338,
+          "imagePath": "Images/ZZZ/ben_bigger.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/ZZZ/ben_bigger.png",
+          "sha256": "bc7f5204baa389ba31361da1c5edc3f85c16c64a6b6bae6c3941a8a500c1418a",
+          "assetQuality": "thumbnail",
+          "keys": [
+            "ben_bigger",
+            "ben bigger"
+          ]
+        },
+        {
+          "internalName": "billy_kid",
+          "displayName": "Billy Kid",
+          "gameBananaCategoryId": 30339,
+          "imagePath": "Images/ZZZ/billy_kid.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/ZZZ/billy_kid.png",
+          "sha256": "764cc855cddfe3761642b826d0f7cbe6297dc265303dcbd60dc0fe203ac03da1",
+          "assetQuality": "thumbnail",
+          "keys": [
+            "billy_kid",
+            "billy kid"
+          ]
+        },
+        {
+          "internalName": "burnice_white",
+          "displayName": "Burnice White",
+          "gameBananaCategoryId": 32531,
+          "imagePath": "Images/ZZZ/burnice_white.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/ZZZ/burnice_white.png",
+          "sha256": "43d25eee6c68d945f4360658290193eba5a2c6e6f8f156cb68d3ec9e51cd473e",
+          "assetQuality": "thumbnail",
+          "keys": [
+            "burnice_white",
+            "burnice white"
+          ]
+        },
+        {
+          "internalName": "caesar_king",
+          "displayName": "Caesar King",
+          "gameBananaCategoryId": 32164,
+          "imagePath": "Images/ZZZ/caesar_king.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/ZZZ/caesar_king.png",
+          "sha256": "60c2f8506eb97635d82c145acd4e5b9833db03bf5e744958f8897ba6503ab535",
+          "assetQuality": "thumbnail",
+          "keys": [
+            "caesar_king",
+            "caesar king"
+          ]
+        },
+        {
+          "internalName": "cissia",
+          "displayName": "Cissia",
+          "gameBananaCategoryId": 44398,
+          "imagePath": "Images/ZZZ/cissia.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/ZZZ/cissia.png",
+          "sha256": "970b216c77cc0d7a999a6c480790fb8d73177ad1c00555e7eb2e232caeeb001e",
+          "assetQuality": "thumbnail",
+          "keys": [
+            "cissia",
+            "cissia"
+          ]
+        },
+        {
+          "internalName": "claret_flint",
+          "displayName": "Claret Flint",
+          "gameBananaCategoryId": 49001,
+          "imagePath": "Images/ZZZ/claret_flint.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/ZZZ/claret_flint.png",
+          "sha256": "e326d66c8cbce0eeb6a90dbe8b6fdb736b5cd23e73e2efc8bd1272fd5999f5d8",
+          "assetQuality": "thumbnail",
+          "keys": [
+            "claret_flint",
+            "claret flint"
+          ]
+        },
+        {
+          "internalName": "corin_wickes",
+          "displayName": "Corin Wickes",
+          "gameBananaCategoryId": 30340,
+          "imagePath": "Images/ZZZ/corin_wickes.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/ZZZ/corin_wickes.png",
+          "sha256": "8a9f513c70902de9142a309a19b713b4ae2396f47107dd8f43db374c10e788bc",
+          "assetQuality": "thumbnail",
+          "keys": [
+            "corin_wickes",
+            "corin wickes"
+          ]
+        },
+        {
+          "internalName": "dialyn",
+          "displayName": "Dialyn",
+          "gameBananaCategoryId": 41303,
+          "imagePath": "Images/ZZZ/dialyn.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/ZZZ/dialyn.png",
+          "sha256": "9bd99acc3e209df6c67f862108e79803d2f0b57d5cdbb55f7c558c6c258dc13c",
+          "assetQuality": "thumbnail",
+          "keys": [
+            "dialyn",
+            "dialyn"
+          ]
+        },
+        {
+          "internalName": "ellen_joe",
+          "displayName": "Ellen Joe",
+          "gameBananaCategoryId": 30341,
+          "imagePath": "Images/ZZZ/ellen_joe.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/ZZZ/ellen_joe.png",
+          "sha256": "00ce83a2677adf23ddd2c7aa0567378c40ac7f8c193ddf0ef47f20601fc221c5",
+          "assetQuality": "thumbnail",
+          "keys": [
+            "ellen_joe",
+            "ellen joe"
+          ]
+        },
+        {
+          "internalName": "evelyn_chevalier",
+          "displayName": "Evelyn Chevalier",
+          "gameBananaCategoryId": 35123,
+          "imagePath": "Images/ZZZ/evelyn_chevalier.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/ZZZ/evelyn_chevalier.png",
+          "sha256": "bd4f70872d864117f677b92c108736b34a6e1d91aa749e6f403866205729d6b7",
+          "assetQuality": "thumbnail",
+          "keys": [
+            "evelyn_chevalier",
+            "evelyn chevalier"
+          ]
+        },
+        {
+          "internalName": "grace_howard",
+          "displayName": "Grace Howard",
+          "gameBananaCategoryId": 30342,
+          "imagePath": "Images/ZZZ/grace_howard.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/ZZZ/grace_howard.png",
+          "sha256": "dfba8b18ee8349125f871d7f28f770415c216aaf8136dc1c54b9f72e1e92bf65",
+          "assetQuality": "thumbnail",
+          "keys": [
+            "grace_howard",
+            "grace howard"
+          ]
+        },
+        {
+          "internalName": "hoshimi_miyabi",
+          "displayName": "Hoshimi Miyabi",
+          "gameBananaCategoryId": 30579,
+          "imagePath": "Images/ZZZ/hoshimi_miyabi.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/ZZZ/hoshimi_miyabi.png",
+          "sha256": "7e5bb2a11a4650b413484127847dc6e5a08006f3b9a5ab1d2cfd2ee8ea018096",
+          "assetQuality": "thumbnail",
+          "keys": [
+            "hoshimi_miyabi",
+            "hoshimi miyabi"
+          ]
+        },
+        {
+          "internalName": "hugo_vlad",
+          "displayName": "Hugo Vlad",
+          "gameBananaCategoryId": 36836,
+          "imagePath": "Images/ZZZ/hugo_vlad.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/ZZZ/hugo_vlad.png",
+          "sha256": "a5ab3115ca0bcdcf70f5611605b0fe7f841f5a29805de70178d19faf01754223",
+          "assetQuality": "thumbnail",
+          "keys": [
+            "hugo_vlad",
+            "hugo vlad"
+          ]
+        },
+        {
+          "internalName": "jane_doe",
+          "displayName": "Jane Doe",
+          "gameBananaCategoryId": 30580,
+          "imagePath": "Images/ZZZ/jane_doe.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/ZZZ/jane_doe.png",
+          "sha256": "d6d7f925e1f24acc89ea060b382209b51dd9508c6460fc5a6f4475022e97bfb3",
+          "assetQuality": "thumbnail",
+          "keys": [
+            "jane_doe",
+            "jane doe"
+          ]
+        },
+        {
+          "internalName": "ju_fufu",
+          "displayName": "Ju Fufu",
+          "gameBananaCategoryId": 37309,
+          "imagePath": "Images/ZZZ/ju_fufu.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/ZZZ/ju_fufu.png",
+          "sha256": "82f8d035f258de073a0325845b23b0363cb0f9ca5df91145b59490697332ea8e",
+          "assetQuality": "thumbnail",
+          "keys": [
+            "ju_fufu",
+            "ju fufu"
+          ]
+        },
+        {
+          "internalName": "koleda_belobog",
+          "displayName": "Koleda Belobog",
+          "gameBananaCategoryId": 30343,
+          "imagePath": "Images/ZZZ/koleda_belobog.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/ZZZ/koleda_belobog.png",
+          "sha256": "b352a87abcac4ae4cda2da5d229c5d73662408ad950fc2efc44a7f16bf181b82",
+          "assetQuality": "thumbnail",
+          "keys": [
+            "koleda_belobog",
+            "koleda belobog"
+          ]
+        },
+        {
+          "internalName": "komano_manato",
+          "displayName": "Komano Manato",
+          "gameBananaCategoryId": 40360,
+          "imagePath": "Images/ZZZ/komano_manato.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/ZZZ/komano_manato.png",
+          "sha256": "ca39be5cd49e6943e9b01ebcd58927f703e77ef5dd65357e037290591dcd5ca0",
+          "assetQuality": "thumbnail",
+          "keys": [
+            "komano_manato",
+            "komano manato"
+          ]
+        },
+        {
+          "internalName": "lighter",
+          "displayName": "Lighter",
+          "gameBananaCategoryId": 33590,
+          "imagePath": "Images/ZZZ/lighter.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/ZZZ/lighter.png",
+          "sha256": "d08e2f47d45956cf83af25d69eeb3c63f9fcbf41a78a128fe2ab852e9f2f1a02",
+          "assetQuality": "thumbnail",
+          "keys": [
+            "lighter",
+            "lighter"
+          ]
+        },
+        {
+          "internalName": "lucia_elowen",
+          "displayName": "Lucia Elowen",
+          "gameBananaCategoryId": 40361,
+          "imagePath": "Images/ZZZ/lucia_elowen.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/ZZZ/lucia_elowen.png",
+          "sha256": "65b395e2c1429206d9908da96a56b8eac48a2acf4874bd8c575fcb6bd92387f0",
+          "assetQuality": "thumbnail",
+          "keys": [
+            "lucia_elowen",
+            "lucia elowen"
+          ]
+        },
+        {
+          "internalName": "luciana_de_montefio",
+          "displayName": "Luciana de Montefio",
+          "gameBananaCategoryId": 30344,
+          "imagePath": "Images/ZZZ/luciana_de_montefio.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/ZZZ/luciana_de_montefio.png",
+          "sha256": "04e451627ab6d8940f6eda508d94969f94b205ea7b9d5ce3eceeb454b61cdcbb",
+          "assetQuality": "thumbnail",
+          "keys": [
+            "luciana_de_montefio",
+            "luciana de montefio"
+          ]
+        },
+        {
+          "internalName": "nangong_yu",
+          "displayName": "Nangong Yu",
+          "gameBananaCategoryId": 43311,
+          "imagePath": "Images/ZZZ/nangong_yu.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/ZZZ/nangong_yu.png",
+          "sha256": "dff78752032a9aaaf2a36d45dd37e418f1781d2694b3d265112b0024798f94cf",
+          "assetQuality": "thumbnail",
+          "keys": [
+            "nangong_yu",
+            "nangong yu"
+          ]
+        },
+        {
+          "internalName": "nekomiya_mana",
+          "displayName": "Nekomiya Mana",
+          "gameBananaCategoryId": 30345,
+          "imagePath": "Images/ZZZ/nekomiya_mana.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/ZZZ/nekomiya_mana.png",
+          "sha256": "2af6d54bf5ac06bda2671583060eb7fd0403c420980ff9fc5cf92b0e1acda9d1",
+          "assetQuality": "thumbnail",
+          "keys": [
+            "nekomiya_mana",
+            "nekomiya mana"
+          ]
+        },
+        {
+          "internalName": "nicole_demara",
+          "displayName": "Nicole Demara",
+          "gameBananaCategoryId": 30346,
+          "imagePath": "Images/ZZZ/nicole_demara.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/ZZZ/nicole_demara.png",
+          "sha256": "fdc5a527811e290d534394d67a085415754eee9b467dc3532e5c84da670e5fc6",
+          "assetQuality": "thumbnail",
+          "keys": [
+            "nicole_demara",
+            "nicole demara"
+          ]
+        },
+        {
+          "internalName": "norma_hollowell",
+          "displayName": "Norma Hollowell",
+          "gameBananaCategoryId": 46552,
+          "imagePath": "Images/ZZZ/norma_hollowell.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/ZZZ/norma_hollowell.png",
+          "sha256": "6303b323fb4d9dee6bb64e835eba1bd56675cbb5fddd652fb2ec4a4bdf65e761",
+          "assetQuality": "thumbnail",
+          "keys": [
+            "norma_hollowell",
+            "norma hollowell"
+          ]
+        },
+        {
+          "internalName": "orphie_magnusson",
+          "displayName": "Orphie Magnusson",
+          "gameBananaCategoryId": 39946,
+          "imagePath": "Images/ZZZ/orphie_magnusson.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/ZZZ/orphie_magnusson.png",
+          "sha256": "6881b6355e5945d0e64a0ca2d414c8bb59547f7feb42bea2d66da2a9e70ccdd4",
+          "assetQuality": "thumbnail",
+          "keys": [
+            "orphie_magnusson",
+            "orphie magnusson"
+          ]
+        },
+        {
+          "internalName": "pan_yinhu",
+          "displayName": "Pan Yinhu",
+          "gameBananaCategoryId": 37308,
+          "imagePath": "Images/ZZZ/pan_yinhu.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/ZZZ/pan_yinhu.png",
+          "sha256": "cd01263feae073cbfb9adcc2b3a948f34cf0d4fb10ec64594feffcc4e949eb87",
+          "assetQuality": "thumbnail",
+          "keys": [
+            "pan_yinhu",
+            "pan yinhu"
+          ]
+        },
+        {
+          "internalName": "piper_wheel",
+          "displayName": "Piper Wheel",
+          "gameBananaCategoryId": 30347,
+          "imagePath": "Images/ZZZ/piper_wheel.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/ZZZ/piper_wheel.png",
+          "sha256": "536689e423729d2ed784f6e76fb40c69e6000115e81adde753c7f8c53d257046",
+          "assetQuality": "thumbnail",
+          "keys": [
+            "piper_wheel",
+            "piper wheel"
+          ]
+        },
+        {
+          "internalName": "promeia",
+          "displayName": "Promeia",
+          "gameBananaCategoryId": 45448,
+          "imagePath": "Images/ZZZ/promeia.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/ZZZ/promeia.png",
+          "sha256": "0b10d4768a3572107b2cc728944e1e400d4a315c7b4d8f1f1d4f88e1acf4b761",
+          "assetQuality": "thumbnail",
+          "keys": [
+            "promeia",
+            "promeia"
+          ]
+        },
+        {
+          "internalName": "pulchra_fellini",
+          "displayName": "Pulchra Fellini",
+          "gameBananaCategoryId": 35673,
+          "imagePath": "Images/ZZZ/pulchra_fellini.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/ZZZ/pulchra_fellini.png",
+          "sha256": "d3ae47dbccb1aea660aab3f31f2770b579fc9d2c89bbc7e092aa2650b5f0bf1a",
+          "assetQuality": "thumbnail",
+          "keys": [
+            "pulchra_fellini",
+            "pulchra fellini"
+          ]
+        },
+        {
+          "internalName": "pyrois",
+          "displayName": "Pyrois",
+          "gameBananaCategoryId": 46646,
+          "imagePath": "Images/ZZZ/pyrois.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/ZZZ/pyrois.png",
+          "sha256": "cc525464f29ebb02b894f939afde0ce3e11fe081c48282a59a90ff5b0b206667",
+          "assetQuality": "thumbnail",
+          "keys": [
+            "pyrois",
+            "pyrois"
+          ]
+        },
+        {
+          "internalName": "qingyi",
+          "displayName": "Qingyi",
+          "gameBananaCategoryId": 30578,
+          "imagePath": "Images/ZZZ/qingyi.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/ZZZ/qingyi.png",
+          "sha256": "1a2dfa77b9e6630dacdd5ec06de9e29f2bccd4744fe499834a79ed074feff746",
+          "assetQuality": "thumbnail",
+          "keys": [
+            "qingyi",
+            "qingyi"
+          ]
+        },
+        {
+          "internalName": "remielle_dan",
+          "displayName": "Remielle Dan",
+          "gameBananaCategoryId": 47714,
+          "imagePath": "Images/ZZZ/remielle_dan.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/ZZZ/remielle_dan.png",
+          "sha256": "3144cd5265cd5c393497253755b3b54785a6606c28c33a8be3de9ce81b80de96",
+          "assetQuality": "thumbnail",
+          "keys": [
+            "remielle_dan",
+            "remielle dan"
+          ]
+        },
+        {
+          "internalName": "roxy_ifrita_pryce",
+          "displayName": "Roxy Ifrita Pryce",
+          "gameBananaCategoryId": 49002,
+          "imagePath": "Images/ZZZ/roxy_ifrita_pryce.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/ZZZ/roxy_ifrita_pryce.png",
+          "sha256": "eda4911fcb6a94e9d68d50544fb6f19e6d3094a8789e542b5e8f96a3a1579d61",
+          "assetQuality": "thumbnail",
+          "keys": [
+            "roxy_ifrita_pryce",
+            "roxy ifrita pryce"
+          ]
+        },
+        {
+          "internalName": "seed",
+          "displayName": "Seed",
+          "gameBananaCategoryId": 39338,
+          "imagePath": "Images/ZZZ/seed.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/ZZZ/seed.png",
+          "sha256": "15e0043ac6dcf008e2acf6db05c7b8be7e563cc2a245e7451215cc1f2b7ba058",
+          "assetQuality": "thumbnail",
+          "keys": [
+            "seed",
+            "seed"
+          ]
+        },
+        {
+          "internalName": "seth_lowell",
+          "displayName": "Seth Lowell",
+          "gameBananaCategoryId": 30577,
+          "imagePath": "Images/ZZZ/seth_lowell.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/ZZZ/seth_lowell.png",
+          "sha256": "28f7cc9a5654e3c2c0ffb02c30bd6f8d246653fc64969afcf800145424b547ae",
+          "assetQuality": "thumbnail",
+          "keys": [
+            "seth_lowell",
+            "seth lowell"
+          ]
+        },
+        {
+          "internalName": "sigrid_de_lazur",
+          "displayName": "Sigrid de L'Azur",
+          "gameBananaCategoryId": 47715,
+          "imagePath": "Images/ZZZ/sigrid_de_lazur.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/ZZZ/sigrid_de_lazur.png",
+          "sha256": "e7ee8c561ccf7c5c76b6f358c687d8455eb8fcbcc3fdd56ed9b80b29f18b293d",
+          "assetQuality": "thumbnail",
+          "keys": [
+            "sigrid_de_lazur",
+            "sigrid de l'azur"
+          ]
+        },
+        {
+          "internalName": "soldier_0_anby",
+          "displayName": "Soldier 0 Anby",
+          "gameBananaCategoryId": 35835,
+          "imagePath": "Images/ZZZ/soldier_0_anby.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/ZZZ/soldier_0_anby.png",
+          "sha256": "ce17838556f119bc69b08435190e6137cd97aeeffebc583996d3b06c97cf92db",
+          "assetQuality": "thumbnail",
+          "keys": [
+            "soldier_0_anby",
+            "soldier 0 anby"
+          ]
+        },
+        {
+          "internalName": "soldier_11",
+          "displayName": "Soldier 11",
+          "gameBananaCategoryId": 30348,
+          "imagePath": "Images/ZZZ/soldier_11.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/ZZZ/soldier_11.png",
+          "sha256": "89890c29383970264e086633ab41147028c5321bfe228a52a64ec8f6e437ed12",
+          "assetQuality": "thumbnail",
+          "keys": [
+            "soldier_11",
+            "soldier 11"
+          ]
+        },
+        {
+          "internalName": "soukaku",
+          "displayName": "Soukaku",
+          "gameBananaCategoryId": 30349,
+          "imagePath": "Images/ZZZ/soukaku.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/ZZZ/soukaku.png",
+          "sha256": "9951344564e9251d9f2638812065e47c13fe2c8aa0cb247b2b807c6bcb7906eb",
+          "assetQuality": "thumbnail",
+          "keys": [
+            "soukaku",
+            "soukaku"
+          ]
+        },
+        {
+          "internalName": "starlight_billy",
+          "displayName": "Starlight Billy",
+          "gameBananaCategoryId": 46113,
+          "imagePath": "Images/ZZZ/starlight_billy.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/ZZZ/starlight_billy.png",
+          "sha256": "0d066cbf8b06f60500e7051e1e060cb9ab6d584b19fda4739257421b278cb338",
+          "assetQuality": "thumbnail",
+          "keys": [
+            "starlight_billy",
+            "starlight billy"
+          ]
+        },
+        {
+          "internalName": "sunna",
+          "displayName": "Sunna",
+          "gameBananaCategoryId": 43003,
+          "imagePath": "Images/ZZZ/sunna.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/ZZZ/sunna.png",
+          "sha256": "e2b4ac797d073778a893616815d61215c4fdd7c9b2723deddbeea3c40a32d211",
+          "assetQuality": "thumbnail",
+          "keys": [
+            "sunna",
+            "sunna"
+          ]
+        },
+        {
+          "internalName": "trigger",
+          "displayName": "Trigger",
+          "gameBananaCategoryId": 36133,
+          "imagePath": "Images/ZZZ/trigger.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/ZZZ/trigger.png",
+          "sha256": "b2648a60548467778367ae145aa569e4c1f8399bf3a0e24eab4c59632778a833",
+          "assetQuality": "thumbnail",
+          "keys": [
+            "trigger",
+            "trigger"
+          ]
+        },
+        {
+          "internalName": "velina_airgid",
+          "displayName": "Velina Airgid",
+          "gameBananaCategoryId": 46553,
+          "imagePath": "Images/ZZZ/velina_airgid.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/ZZZ/velina_airgid.png",
+          "sha256": "0e795ccb7c1cd4ab5db0d2352a7edb0df69dda73889a02cf7af4e8313344258c",
+          "assetQuality": "thumbnail",
+          "keys": [
+            "velina_airgid",
+            "velina airgid"
+          ]
+        },
+        {
+          "internalName": "vivian_banshee",
+          "displayName": "Vivian Banshee",
+          "gameBananaCategoryId": 36560,
+          "imagePath": "Images/ZZZ/vivian_banshee.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/ZZZ/vivian_banshee.png",
+          "sha256": "0ba04ba8ff844c025f38c119aa311c3a3bad1a0975d8b185e2ae89d4a7301470",
+          "assetQuality": "thumbnail",
+          "keys": [
+            "vivian_banshee",
+            "vivian banshee"
+          ]
+        },
+        {
+          "internalName": "von_lycaon",
+          "displayName": "Von Lycaon",
+          "gameBananaCategoryId": 30309,
+          "imagePath": "Images/ZZZ/von_lycaon.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/ZZZ/von_lycaon.png",
+          "sha256": "0c90cd6316822056cd00aeab64e0ee4c460ad763fb000a424f9d35de34261690",
+          "assetQuality": "thumbnail",
+          "keys": [
+            "von_lycaon",
+            "von lycaon"
+          ]
+        },
+        {
+          "internalName": "wise",
+          "displayName": "Wise",
+          "gameBananaCategoryId": 30316,
+          "imagePath": "Images/ZZZ/wise.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/ZZZ/wise.png",
+          "sha256": "caadec917761f710e8249fc4bd55f81107871e958a690620b1367a34c6851793",
+          "assetQuality": "thumbnail",
+          "keys": [
+            "wise",
+            "wise"
+          ]
+        },
+        {
+          "internalName": "yanagi_tsukishiro",
+          "displayName": "Yanagi Tsukishiro",
+          "gameBananaCategoryId": 33018,
+          "imagePath": "Images/ZZZ/yanagi_tsukishiro.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/ZZZ/yanagi_tsukishiro.png",
+          "sha256": "f6e57de353770422a4cb38279908e99dc50c2a60806008c778b433cb0bf7f813",
+          "assetQuality": "thumbnail",
+          "keys": [
+            "yanagi_tsukishiro",
+            "yanagi tsukishiro"
+          ]
+        },
+        {
+          "internalName": "ye_shunguang",
+          "displayName": "Ye Shunguang",
+          "gameBananaCategoryId": 42116,
+          "imagePath": "Images/ZZZ/ye_shunguang.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/ZZZ/ye_shunguang.png",
+          "sha256": "3771da0e5462878ccdbc26affc29ef1b8ded56be76ae51f5feb902f5d228744d",
+          "assetQuality": "thumbnail",
+          "keys": [
+            "ye_shunguang",
+            "ye shunguang"
+          ]
+        },
+        {
+          "internalName": "yidhari_murphy",
+          "displayName": "Yidhari Murphy",
+          "gameBananaCategoryId": 40880,
+          "imagePath": "Images/ZZZ/yidhari_murphy.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/ZZZ/yidhari_murphy.png",
+          "sha256": "5b22a9b36640c75a30b08069cacc9a4f5f0610d666d718b3e11b73536c69318a",
+          "assetQuality": "thumbnail",
+          "keys": [
+            "yidhari_murphy",
+            "yidhari murphy"
+          ]
+        },
+        {
+          "internalName": "yixuan",
+          "displayName": "Yixuan",
+          "gameBananaCategoryId": 37289,
+          "imagePath": "Images/ZZZ/yixuan.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/ZZZ/yixuan.png",
+          "sha256": "c5a172504bbd99d49e2de399850f3b1295e00e01a57103764cdd8f05b9965dff",
+          "assetQuality": "thumbnail",
+          "keys": [
+            "yixuan",
+            "yixuan"
+          ]
+        },
+        {
+          "internalName": "yuzuha_ukinami",
+          "displayName": "Yuzuha Ukinami",
+          "gameBananaCategoryId": 38177,
+          "imagePath": "Images/ZZZ/yuzuha_ukinami.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/ZZZ/yuzuha_ukinami.png",
+          "sha256": "2d5040cde213b11731866cfc13bbd6f7c93b8189ec646561c2877225cd15da4d",
+          "assetQuality": "thumbnail",
+          "keys": [
+            "yuzuha_ukinami",
+            "yuzuha ukinami"
+          ]
+        },
+        {
+          "internalName": "zhao",
+          "displayName": "Zhao",
+          "gameBananaCategoryId": 42118,
+          "imagePath": "Images/ZZZ/zhao.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/ZZZ/zhao.png",
+          "sha256": "6e8da1d07cd92324c08445fda2ee256f367e312eec5bfaa9fd62b0552a7c1fa4",
+          "assetQuality": "thumbnail",
+          "keys": [
+            "zhao",
+            "zhao"
+          ]
+        },
+        {
+          "internalName": "zhu_yuan",
+          "displayName": "Zhu Yuan",
+          "gameBananaCategoryId": 30350,
+          "imagePath": "Images/ZZZ/zhu_yuan.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/ZZZ/zhu_yuan.png",
+          "sha256": "a10b0b50f34c2852f5a295395ba736f43cbea1d4c10f3a3cf87484e42deb1dab",
+          "assetQuality": "thumbnail",
+          "keys": [
+            "zhu_yuan",
+            "zhu yuan"
+          ]
+        }
+      ]
+    },
+    "Genshin": {
+      "gameId": 8552,
+      "charactersRootCategoryId": 18140,
+      "characters": [
+        {
+          "internalName": "aether",
+          "displayName": "Aether",
+          "gameBananaCategoryId": 19510,
+          "imagePath": "Images/Genshin/aether.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/aether.png",
+          "sha256": "219b5794777b44ba59d3f4e384d5a961573fccae92692ddbb7581e5a96ce65db",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "aether",
+            "aether"
+          ]
+        },
+        {
+          "internalName": "aino",
+          "displayName": "Aino",
+          "gameBananaCategoryId": 39454,
+          "imagePath": "Images/Genshin/aino.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/aino.png",
+          "sha256": "473794bae072bd41b29f0fb993d4414162794e3a2064a3282ef07820a1f3f32f",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "aino",
+            "aino"
+          ]
+        },
+        {
+          "internalName": "albedo",
+          "displayName": "Albedo",
+          "gameBananaCategoryId": 19467,
+          "imagePath": "Images/Genshin/albedo.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/albedo.png",
+          "sha256": "6d78520d1355d2175650f9a554047b4b1eeddaf997f4dd8092452eab303d0eab",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "albedo",
+            "albedo"
+          ]
+        },
+        {
+          "internalName": "alhaitham",
+          "displayName": "Alhaitham",
+          "gameBananaCategoryId": 21708,
+          "imagePath": "Images/Genshin/alhaitham.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/alhaitham.png",
+          "sha256": "84820fef439fa935abc20a4d9af11dca7299881114f435754bcf59d770c4abfe",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "alhaitham",
+            "alhaitham"
+          ]
+        },
+        {
+          "internalName": "aloy",
+          "displayName": "Aloy",
+          "gameBananaCategoryId": 19469,
+          "imagePath": "Images/Genshin/aloy.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/aloy.png",
+          "sha256": "45a7c151d773353fe1fb9f26eb4baa86214e68f9df599932931e1a43b60b73d4",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "aloy",
+            "aloy"
+          ]
+        },
+        {
+          "internalName": "alyosha",
+          "displayName": "Alyosha",
+          "gameBananaCategoryId": 48152,
+          "imagePath": "Images/Genshin/alyosha.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/alyosha.png",
+          "sha256": "debe1fb62dc770635bcac250ec91b89a7cca79a322b9fd3160c55e1363bef665",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "alyosha",
+            "alyosha"
+          ]
+        },
+        {
+          "internalName": "amber",
+          "displayName": "Amber",
+          "gameBananaCategoryId": 19470,
+          "imagePath": "Images/Genshin/amber.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/amber.png",
+          "sha256": "cdd63c9a16f41060339a089f9f3febf1f2b0db59eb5d16571b4653ad5d90de66",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "amber",
+            "amber"
+          ]
+        },
+        {
+          "internalName": "arataki_itto",
+          "displayName": "Arataki Itto",
+          "gameBananaCategoryId": 19471,
+          "imagePath": "Images/Genshin/arataki_itto.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/arataki_itto.png",
+          "sha256": "5126158677ae9b9c1ff5a1dfe4e5cab8dbfb5abac4a743cc1a94f620fc2c97ad",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "arataki_itto",
+            "arataki itto"
+          ]
+        },
+        {
+          "internalName": "arlecchino",
+          "displayName": "Arlecchino",
+          "gameBananaCategoryId": 28961,
+          "imagePath": "Images/Genshin/arlecchino.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/arlecchino.png",
+          "sha256": "1d3e17508f5d1b94327f851f25817baca56deaac74f194ec30d5c853bff664a5",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "arlecchino",
+            "arlecchino"
+          ]
+        },
+        {
+          "internalName": "baizhu",
+          "displayName": "Baizhu",
+          "gameBananaCategoryId": 22790,
+          "imagePath": "Images/Genshin/baizhu.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/baizhu.png",
+          "sha256": "0bab1172a0a5dc3940dba74f4d383ef3c1d224895fdf37eb3a60f934724eb117",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "baizhu",
+            "baizhu"
+          ]
+        },
+        {
+          "internalName": "barbara",
+          "displayName": "Barbara",
+          "gameBananaCategoryId": 19472,
+          "imagePath": "Images/Genshin/barbara.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/barbara.png",
+          "sha256": "d5c5e326d4efaa7d9ca7faeee2f043cc573669e6df7b00bba13d8c12fcff2247",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "barbara",
+            "barbara"
+          ]
+        },
+        {
+          "internalName": "beidou",
+          "displayName": "Beidou",
+          "gameBananaCategoryId": 19473,
+          "imagePath": "Images/Genshin/beidou.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/beidou.png",
+          "sha256": "56a736269dbe2468547865a96810e63890ed18c0c74035bb6a3613db38ba4aba",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "beidou",
+            "beidou"
+          ]
+        },
+        {
+          "internalName": "bennett",
+          "displayName": "Bennett",
+          "gameBananaCategoryId": 19474,
+          "imagePath": "Images/Genshin/bennett.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/bennett.png",
+          "sha256": "e0230c64ae3146ead712533617cc2caea5e2598f3bc195c16d068bf89b3e8006",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "bennett",
+            "bennett"
+          ]
+        },
+        {
+          "internalName": "candace",
+          "displayName": "Candace",
+          "gameBananaCategoryId": 19475,
+          "imagePath": "Images/Genshin/candace.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/candace.png",
+          "sha256": "23f2620697c191102bfcbf1ddca579da793976b36ac24fbf69367b8a7fe10a09",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "candace",
+            "candace"
+          ]
+        },
+        {
+          "internalName": "charlotte",
+          "displayName": "Charlotte",
+          "gameBananaCategoryId": 23440,
+          "imagePath": "Images/Genshin/charlotte.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/charlotte.png",
+          "sha256": "d92e1e471d92d5cd547f3e344843b08867ecafd7add61d47031eaa3daafda8b9",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "charlotte",
+            "charlotte"
+          ]
+        },
+        {
+          "internalName": "chasca",
+          "displayName": "Chasca",
+          "gameBananaCategoryId": 33346,
+          "imagePath": "Images/Genshin/chasca.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/chasca.png",
+          "sha256": "d661b2871949e389188778d89da71d44dcecb19c5e6f59102f9d6c1e72f3ab9b",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "chasca",
+            "chasca"
+          ]
+        },
+        {
+          "internalName": "chevreuse",
+          "displayName": "Chevreuse",
+          "gameBananaCategoryId": 27117,
+          "imagePath": "Images/Genshin/chevreuse.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/chevreuse.png",
+          "sha256": "0525fff94c502a57db66bb27e76106583ec20d4dcfc5f2063b8d98353d66160c",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "chevreuse",
+            "chevreuse"
+          ]
+        },
+        {
+          "internalName": "chiori",
+          "displayName": "Chiori",
+          "gameBananaCategoryId": 28268,
+          "imagePath": "Images/Genshin/chiori.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/chiori.png",
+          "sha256": "6a89f4f818aa707450792458df2b909a2e21a6369a564b21fa0a864ba032411a",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "chiori",
+            "chiori"
+          ]
+        },
+        {
+          "internalName": "chongyun",
+          "displayName": "Chongyun",
+          "gameBananaCategoryId": 19476,
+          "imagePath": "Images/Genshin/chongyun.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/chongyun.png",
+          "sha256": "298ccf9b80878b81720f43647b2215aca94ac7aa4d1f995b262e4b2f41117475",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "chongyun",
+            "chongyun"
+          ]
+        },
+        {
+          "internalName": "citlali",
+          "displayName": "Citlali",
+          "gameBananaCategoryId": 32438,
+          "imagePath": "Images/Genshin/citlali.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/citlali.png",
+          "sha256": "a1d7ff325e9bab46f26baa6327708ae844d0a2ef00eda1313b33ed7c452abb3e",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "citlali",
+            "citlali"
+          ]
+        },
+        {
+          "internalName": "clorinde",
+          "displayName": "Clorinde",
+          "gameBananaCategoryId": 29719,
+          "imagePath": "Images/Genshin/clorinde.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/clorinde.png",
+          "sha256": "db37ff166c137fb43e895bc5ec2097976727047f50472943fd3829d03bb9c028",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "clorinde",
+            "clorinde"
+          ]
+        },
+        {
+          "internalName": "collei",
+          "displayName": "Collei",
+          "gameBananaCategoryId": 19141,
+          "imagePath": "Images/Genshin/collei.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/collei.png",
+          "sha256": "96e894877c80c88e2d9f86c63d955c9e6a290e3be8d368457d538e4f83f4c3d8",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "collei",
+            "collei"
+          ]
+        },
+        {
+          "internalName": "columbina",
+          "displayName": "Columbina",
+          "gameBananaCategoryId": 42455,
+          "imagePath": "Images/Genshin/columbina.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/columbina.png",
+          "sha256": "5491feee2a0daa03a5850e382f646f024e2c565949601179091d861b4382f8ff",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "columbina",
+            "columbina"
+          ]
+        },
+        {
+          "internalName": "cyno",
+          "displayName": "Cyno",
+          "gameBananaCategoryId": 19477,
+          "imagePath": "Images/Genshin/cyno.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/cyno.png",
+          "sha256": "02102d0523edb2b9cb6d1d00f21b103d856a0916640889d66a66f1e1cc67c230",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "cyno",
+            "cyno"
+          ]
+        },
+        {
+          "internalName": "dahlia",
+          "displayName": "Dahlia",
+          "gameBananaCategoryId": 37552,
+          "imagePath": "Images/Genshin/dahlia.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/dahlia.png",
+          "sha256": "97d6564a2f214784c59b31b9d25e16637c84c413bcf41350e0059e5f0cb141d2",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "dahlia",
+            "dahlia"
+          ]
+        },
+        {
+          "internalName": "dehya",
+          "displayName": "Dehya",
+          "gameBananaCategoryId": 21555,
+          "imagePath": "Images/Genshin/dehya.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/dehya.png",
+          "sha256": "aba9e7f43bb45fb65ca175965ca85bcb279ffc9a419670436221bebb9779ff71",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "dehya",
+            "dehya"
+          ]
+        },
+        {
+          "internalName": "diluc",
+          "displayName": "Diluc",
+          "gameBananaCategoryId": 19478,
+          "imagePath": "Images/Genshin/diluc.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/diluc.png",
+          "sha256": "04a0fcb7f7217cbd708c330e8e6774ccf9df7fb637d5265e1384a2fc603d0110",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "diluc",
+            "diluc"
+          ]
+        },
+        {
+          "internalName": "diona",
+          "displayName": "Diona",
+          "gameBananaCategoryId": 19479,
+          "imagePath": "Images/Genshin/diona.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/diona.png",
+          "sha256": "e2618ff00755606285278ffa4e19454720f94b1df6ba6f8fa3dbc626f8aae677",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "diona",
+            "diona"
+          ]
+        },
+        {
+          "internalName": "dori",
+          "displayName": "Dori",
+          "gameBananaCategoryId": 19480,
+          "imagePath": "Images/Genshin/dori.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/dori.png",
+          "sha256": "99ffc7763bda9052710a1a6e21ea3278f1dd7ef0e10358dbd4ff8954b848f923",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "dori",
+            "dori"
+          ]
+        },
+        {
+          "internalName": "durin",
+          "displayName": "Durin",
+          "gameBananaCategoryId": 41470,
+          "imagePath": "Images/Genshin/durin.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/durin.png",
+          "sha256": "c438aa9e950c7994cb4d6f62871b6053c6152d846a98a464908deef309bd6f27",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "durin",
+            "durin"
+          ]
+        },
+        {
+          "internalName": "emilie",
+          "displayName": "Emilie",
+          "gameBananaCategoryId": 31115,
+          "imagePath": "Images/Genshin/emilie.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/emilie.png",
+          "sha256": "c56c76228cf9ac176442b71691885d63900baef20c1e3dacee9087fd9e8423b6",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "emilie",
+            "emilie"
+          ]
+        },
+        {
+          "internalName": "escoffier",
+          "displayName": "Escoffier",
+          "gameBananaCategoryId": 36767,
+          "imagePath": "Images/Genshin/escoffier.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/escoffier.png",
+          "sha256": "7f53820dd9a6dea83340fc658bde55886f4bb62a7f57ef4128fd1ee96b06a369",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "escoffier",
+            "escoffier"
+          ]
+        },
+        {
+          "internalName": "eula",
+          "displayName": "Eula",
+          "gameBananaCategoryId": 19481,
+          "imagePath": "Images/Genshin/eula.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/eula.png",
+          "sha256": "8b4bde48aeecb549f49142eff5cff045e3f8a77a6bc4f32e5947984717ad3c80",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "eula",
+            "eula"
+          ]
+        },
+        {
+          "internalName": "faruzan",
+          "displayName": "Faruzan",
+          "gameBananaCategoryId": 20310,
+          "imagePath": "Images/Genshin/faruzan.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/faruzan.png",
+          "sha256": "0e77189aa014c409e446b983c4fd4cafab06628853f32df2703e237ed54faf88",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "faruzan",
+            "faruzan"
+          ]
+        },
+        {
+          "internalName": "fischl",
+          "displayName": "Fischl",
+          "gameBananaCategoryId": 19482,
+          "imagePath": "Images/Genshin/fischl.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/fischl.png",
+          "sha256": "cfc279dafee56dd20100af38c5f9514ee1f83e34d1a65b639c7df2e3e8064d5c",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "fischl",
+            "fischl"
+          ]
+        },
+        {
+          "internalName": "flins",
+          "displayName": "Flins",
+          "gameBananaCategoryId": 39455,
+          "imagePath": "Images/Genshin/flins.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/flins.png",
+          "sha256": "08c0197e3ecc587bf068bc8af8547b4500ea75f76700e56b337f9053239aacf8",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "flins",
+            "flins"
+          ]
+        },
+        {
+          "internalName": "freminet",
+          "displayName": "Freminet",
+          "gameBananaCategoryId": 24625,
+          "imagePath": "Images/Genshin/freminet.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/freminet.png",
+          "sha256": "a5719799d9227361e30cf1b2ce5ac41e90accd046272d6eeabc0a55d1b8eb9c5",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "freminet",
+            "freminet"
+          ]
+        },
+        {
+          "internalName": "furina",
+          "displayName": "Furina",
+          "gameBananaCategoryId": 25471,
+          "imagePath": "Images/Genshin/furina.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/furina.png",
+          "sha256": "0cc1a10757863015331c1a1fa9c7bd09f7bdabec8b517d723a028ada859c1532",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "furina",
+            "furina"
+          ]
+        },
+        {
+          "internalName": "gaming",
+          "displayName": "Gaming",
+          "gameBananaCategoryId": 27550,
+          "imagePath": "Images/Genshin/gaming.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/gaming.png",
+          "sha256": "2da1400dc0631ab1aebbf8f9d8c3916da7adc206491bfabe357fac196890a47f",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "gaming",
+            "gaming"
+          ]
+        },
+        {
+          "internalName": "ganyu",
+          "displayName": "Ganyu",
+          "gameBananaCategoryId": 19483,
+          "imagePath": "Images/Genshin/ganyu.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/ganyu.png",
+          "sha256": "c78a0e93a292f43308160252b47214015963a37b1c5d417f4a441d27215fa2e5",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "ganyu",
+            "ganyu"
+          ]
+        },
+        {
+          "internalName": "gorou",
+          "displayName": "Gorou",
+          "gameBananaCategoryId": 19484,
+          "imagePath": "Images/Genshin/gorou.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/gorou.png",
+          "sha256": "648cdda8f52315730ac4a34f8d16bb91ecbf6bf27a5d2e336f82d4a8a8c5dae6",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "gorou",
+            "gorou"
+          ]
+        },
+        {
+          "internalName": "hu_tao",
+          "displayName": "Hu Tao",
+          "gameBananaCategoryId": 19485,
+          "imagePath": "Images/Genshin/hu_tao.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/hu_tao.png",
+          "sha256": "d472dff4345a5057be0b3cc42dd4539f28a12292b6eb3530cbbab38f7d46e9a9",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "hu_tao",
+            "hu tao"
+          ]
+        },
+        {
+          "internalName": "iansan",
+          "displayName": "Iansan",
+          "gameBananaCategoryId": 35985,
+          "imagePath": "Images/Genshin/iansan.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/iansan.png",
+          "sha256": "29a30ec9d320f21864435a245662935a786cf00b62fea5f2070df4198aea705f",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "iansan",
+            "iansan"
+          ]
+        },
+        {
+          "internalName": "ifa",
+          "displayName": "Ifa",
+          "gameBananaCategoryId": 37119,
+          "imagePath": "Images/Genshin/ifa.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/ifa.png",
+          "sha256": "95509cdc4bc08f15c53339a4094b153b1ddb7d3e3e5ec3738614dddce05ed03a",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "ifa",
+            "ifa"
+          ]
+        },
+        {
+          "internalName": "illuga",
+          "displayName": "Illuga",
+          "gameBananaCategoryId": 42457,
+          "imagePath": "Images/Genshin/illuga.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/illuga.png",
+          "sha256": "2403a2078cfc61f7683168c1aae55e4479862b1d6694e42528fa4408dde613d2",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "illuga",
+            "illuga"
+          ]
+        },
+        {
+          "internalName": "ineffa",
+          "displayName": "Ineffa",
+          "gameBananaCategoryId": 38532,
+          "imagePath": "Images/Genshin/ineffa.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/ineffa.png",
+          "sha256": "d07d265f2cb3a861d4f9243851cc8a8b83fd3faed01e1df8fbf8e688799e1c7b",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "ineffa",
+            "ineffa"
+          ]
+        },
+        {
+          "internalName": "jahoda",
+          "displayName": "Jahoda",
+          "gameBananaCategoryId": 41469,
+          "imagePath": "Images/Genshin/jahoda.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/jahoda.png",
+          "sha256": "3fd1e635f9a29d726ac7f734db248d7d55317e11e1037d9d8fcdc98889731110",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "jahoda",
+            "jahoda"
+          ]
+        },
+        {
+          "internalName": "jean",
+          "displayName": "Jean",
+          "gameBananaCategoryId": 19465,
+          "imagePath": "Images/Genshin/jean.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/jean.png",
+          "sha256": "3be21c449a8ee7556e9e0261f4a9aa82930562564dab868f464ec1f2f721836f",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "jean",
+            "jean"
+          ]
+        },
+        {
+          "internalName": "kachina",
+          "displayName": "Kachina",
+          "gameBananaCategoryId": 31499,
+          "imagePath": "Images/Genshin/kachina.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/kachina.png",
+          "sha256": "ac8ace6f23ff1899120e51f38ca0086ea76f33d10b9ecaf6f8cade5303720323",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "kachina",
+            "kachina"
+          ]
+        },
+        {
+          "internalName": "kaedehara_kazuha",
+          "displayName": "Kaedehara Kazuha",
+          "gameBananaCategoryId": 19486,
+          "imagePath": "Images/Genshin/kaedehara_kazuha.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/kaedehara_kazuha.png",
+          "sha256": "9259c7e2577271de195cd9810858681b4ed6e2c1c26f174ca68681fc2869a886",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "kaedehara_kazuha",
+            "kaedehara kazuha"
+          ]
+        },
+        {
+          "internalName": "kaeya",
+          "displayName": "Kaeya",
+          "gameBananaCategoryId": 19487,
+          "imagePath": "Images/Genshin/kaeya.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/kaeya.png",
+          "sha256": "8c0557d4b33c658a946b4b7811d9913a29464b49ff9fce0dc5512d76ad425e97",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "kaeya",
+            "kaeya"
+          ]
+        },
+        {
+          "internalName": "kamisato_ayaka",
+          "displayName": "Kamisato Ayaka",
+          "gameBananaCategoryId": 19488,
+          "imagePath": "Images/Genshin/kamisato_ayaka.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/kamisato_ayaka.png",
+          "sha256": "cb57062923005aac24b11913f8270a14057c961b34ef836d7708b10fd0188ffc",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "kamisato_ayaka",
+            "kamisato ayaka"
+          ]
+        },
+        {
+          "internalName": "kamisato_ayato",
+          "displayName": "Kamisato Ayato",
+          "gameBananaCategoryId": 19489,
+          "imagePath": "Images/Genshin/kamisato_ayato.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/kamisato_ayato.png",
+          "sha256": "571e0819790d307bd49c36cf59345610edb8fc4f8789465736285aeab8201898",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "kamisato_ayato",
+            "kamisato ayato"
+          ]
+        },
+        {
+          "internalName": "kaveh",
+          "displayName": "Kaveh",
+          "gameBananaCategoryId": 22586,
+          "imagePath": "Images/Genshin/kaveh.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/kaveh.png",
+          "sha256": "8696e62c6ed82072cc94cd2980818a184a5c193ef3f9f2758c03914abb310477",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "kaveh",
+            "kaveh"
+          ]
+        },
+        {
+          "internalName": "keqing",
+          "displayName": "Keqing",
+          "gameBananaCategoryId": 19490,
+          "imagePath": "Images/Genshin/keqing.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/keqing.png",
+          "sha256": "a9e0db05001537ae95f7a993febf9037983ecac21f339094fe8ab21193d081f9",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "keqing",
+            "keqing"
+          ]
+        },
+        {
+          "internalName": "kinich",
+          "displayName": "Kinich",
+          "gameBananaCategoryId": 32109,
+          "imagePath": "Images/Genshin/kinich.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/kinich.png",
+          "sha256": "a53626ae858b771c654d530c690205a4ecf7dc54bf7343ad7cd9fd1c0f10e679",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "kinich",
+            "kinich"
+          ]
+        },
+        {
+          "internalName": "kirara",
+          "displayName": "Kirara",
+          "gameBananaCategoryId": 22960,
+          "imagePath": "Images/Genshin/kirara.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/kirara.png",
+          "sha256": "024bca42483a413b23e5e7c6a164d02d0cc0fad6de3b772c22e4fc2ef82734bd",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "kirara",
+            "kirara"
+          ]
+        },
+        {
+          "internalName": "klee",
+          "displayName": "Klee",
+          "gameBananaCategoryId": 19491,
+          "imagePath": "Images/Genshin/klee.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/klee.png",
+          "sha256": "fd677bf831e54150f7e7ca1d790e7d8562d6620459c6bec7f9e69917b4ec8f4c",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "klee",
+            "klee"
+          ]
+        },
+        {
+          "internalName": "kujou_sara",
+          "displayName": "Kujou Sara",
+          "gameBananaCategoryId": 19492,
+          "imagePath": "Images/Genshin/kujou_sara.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/kujou_sara.png",
+          "sha256": "16573a1dfe978a550836bdd367bc48621e2dd756bfbc390170aea1c846023b73",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "kujou_sara",
+            "kujou sara"
+          ]
+        },
+        {
+          "internalName": "kuki_shinobu",
+          "displayName": "Kuki Shinobu",
+          "gameBananaCategoryId": 19493,
+          "imagePath": "Images/Genshin/kuki_shinobu.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/kuki_shinobu.png",
+          "sha256": "e99b306f5532a4788ce91aba39717eb91f2962d6de7fbd78912292c67495f233",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "kuki_shinobu",
+            "kuki shinobu"
+          ]
+        },
+        {
+          "internalName": "lan_yan",
+          "displayName": "Lan Yan",
+          "gameBananaCategoryId": 34699,
+          "imagePath": "Images/Genshin/lan_yan.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/lan_yan.png",
+          "sha256": "9e956184289cf299115f25e59f0a640099011c7c7f8c59b87911cf1199eb49fc",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "lan_yan",
+            "lan yan"
+          ]
+        },
+        {
+          "internalName": "lauma",
+          "displayName": "Lauma",
+          "gameBananaCategoryId": 39453,
+          "imagePath": "Images/Genshin/lauma.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/lauma.png",
+          "sha256": "dae4cc4b26f412ef6a3ba51abe5be59eb9449bebc4ae00ed0f63a1812e6425a3",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "lauma",
+            "lauma"
+          ]
+        },
+        {
+          "internalName": "layla",
+          "displayName": "Layla",
+          "gameBananaCategoryId": 20057,
+          "imagePath": "Images/Genshin/layla.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/layla.png",
+          "sha256": "eb51cf178ef3ad08b2515b3059629b58b4070b387bfef2fcbf7a8c0ad1638361",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "layla",
+            "layla"
+          ]
+        },
+        {
+          "internalName": "linnea",
+          "displayName": "Linnea",
+          "gameBananaCategoryId": 44803,
+          "imagePath": "Images/Genshin/linnea.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/linnea.png",
+          "sha256": "0a0efb31fdc829418b8bc1691dff3cab3e999921c6c41f9df57aee11117b097f",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "linnea",
+            "linnea"
+          ]
+        },
+        {
+          "internalName": "lisa",
+          "displayName": "Lisa",
+          "gameBananaCategoryId": 19494,
+          "imagePath": "Images/Genshin/lisa.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/lisa.png",
+          "sha256": "61d6649266df56705647679851b63c722b3a7bb7e04483b5210ec1cc99a51f6e",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "lisa",
+            "lisa"
+          ]
+        },
+        {
+          "internalName": "lohen",
+          "displayName": "Lohen",
+          "gameBananaCategoryId": 45458,
+          "imagePath": "Images/Genshin/lohen.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/lohen.png",
+          "sha256": "32b2fe10bf1f7860f9748a8a530af89757804b9ac24ce4fe28645eb5c6d13852",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "lohen",
+            "lohen"
+          ]
+        },
+        {
+          "internalName": "lumine",
+          "displayName": "Lumine",
+          "gameBananaCategoryId": 19763,
+          "imagePath": "Images/Genshin/lumine.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/lumine.png",
+          "sha256": "04f1145c109e677a87a8fbbdb8d39baa78f8c2b4545482db78baf59f5a4b14ab",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "lumine",
+            "lumine"
+          ]
+        },
+        {
+          "internalName": "lynette",
+          "displayName": "Lynette",
+          "gameBananaCategoryId": 24624,
+          "imagePath": "Images/Genshin/lynette.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/lynette.png",
+          "sha256": "56cffe2d25ebfb5bc50bbe0eaebbb57ef580fdd13ef4f0d2dee55ccc37ae5055",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "lynette",
+            "lynette"
+          ]
+        },
+        {
+          "internalName": "lyney",
+          "displayName": "Lyney",
+          "gameBananaCategoryId": 24623,
+          "imagePath": "Images/Genshin/lyney.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/lyney.png",
+          "sha256": "95d05aaf0bcd980f4f4ed457607ac554129434eb31166377d2c19e76b91ba099",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "lyney",
+            "lyney"
+          ]
+        },
+        {
+          "internalName": "manekin",
+          "displayName": "Manekin",
+          "gameBananaCategoryId": 40553,
+          "imagePath": "Images/Genshin/manekin.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/manekin.png",
+          "sha256": "876663884334e172d26b4a06b7b7f25fb0aca849982ddfd0a74ed9033d8d0b3f",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "manekin",
+            "manekin"
+          ]
+        },
+        {
+          "internalName": "manekina",
+          "displayName": "Manekina",
+          "gameBananaCategoryId": 40554,
+          "imagePath": "Images/Genshin/manekina.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/manekina.png",
+          "sha256": "70bac225163613479a9baddd342d8dd478befbdce88bf99784054347c738f25a",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "manekina",
+            "manekina"
+          ]
+        },
+        {
+          "internalName": "mavuika",
+          "displayName": "Mavuika",
+          "gameBananaCategoryId": 31621,
+          "imagePath": "Images/Genshin/mavuika.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/mavuika.png",
+          "sha256": "7569a96cd276df993b628001ca9b6ecfea192639c959cab07c12765dcab6cfb2",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "mavuika",
+            "mavuika"
+          ]
+        },
+        {
+          "internalName": "mika",
+          "displayName": "Mika",
+          "gameBananaCategoryId": 23151,
+          "imagePath": "Images/Genshin/mika.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/mika.png",
+          "sha256": "0d139e8b69e3ba49573b1a7039e36bd762eb0ccda2fddafad574873ddabac1a5",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "mika",
+            "mika"
+          ]
+        },
+        {
+          "internalName": "mona",
+          "displayName": "Mona",
+          "gameBananaCategoryId": 18959,
+          "imagePath": "Images/Genshin/mona.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/mona.png",
+          "sha256": "09d19573263f784cd84446f6f89d863eb9f70862594e2a91623f06ec176be0c5",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "mona",
+            "mona"
+          ]
+        },
+        {
+          "internalName": "mualani",
+          "displayName": "Mualani",
+          "gameBananaCategoryId": 31500,
+          "imagePath": "Images/Genshin/mualani.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/mualani.png",
+          "sha256": "2c6efc2bb9899ac28cec0c4785c94528545b0bf539457559e684968174f35f7f",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "mualani",
+            "mualani"
+          ]
+        },
+        {
+          "internalName": "nahida",
+          "displayName": "Nahida",
+          "gameBananaCategoryId": 20058,
+          "imagePath": "Images/Genshin/nahida.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/nahida.png",
+          "sha256": "84966790c2425f3976a345992978a13919ed66cb40170d848c7611307270a1db",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "nahida",
+            "nahida"
+          ]
+        },
+        {
+          "internalName": "navia",
+          "displayName": "Navia",
+          "gameBananaCategoryId": 26790,
+          "imagePath": "Images/Genshin/navia.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/navia.png",
+          "sha256": "cc3054d4468533f85885801260077a0fffb3185bbf62aec7976966d7fbbb3cee",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "navia",
+            "navia"
+          ]
+        },
+        {
+          "internalName": "nefer",
+          "displayName": "Nefer",
+          "gameBananaCategoryId": 40519,
+          "imagePath": "Images/Genshin/nefer.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/nefer.png",
+          "sha256": "1c26fe56c374f85353be580343ac37ab71c133d33adff90b3285ff70eb7d3679",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "nefer",
+            "nefer"
+          ]
+        },
+        {
+          "internalName": "neuvillette",
+          "displayName": "Neuvillette",
+          "gameBananaCategoryId": 25403,
+          "imagePath": "Images/Genshin/neuvillette.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/neuvillette.png",
+          "sha256": "d2fc3a5b065a4c4dae1098814abdc7e7438c688d39844c9b27629851dfae56ec",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "neuvillette",
+            "neuvillette"
+          ]
+        },
+        {
+          "internalName": "nicole",
+          "displayName": "Nicole",
+          "gameBananaCategoryId": 45459,
+          "imagePath": "Images/Genshin/nicole.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/nicole.png",
+          "sha256": "a42b1d450f26d98406f8f96fb2bc1840218ab11c38e06c414c918cda62f1b83a",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "nicole",
+            "nicole"
+          ]
+        },
+        {
+          "internalName": "nilou",
+          "displayName": "Nilou",
+          "gameBananaCategoryId": 19495,
+          "imagePath": "Images/Genshin/nilou.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/nilou.png",
+          "sha256": "4712d54ee4f0323696cc561c1f2b1a2de61f46df4fa770a8643c46ba4d5bf88e",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "nilou",
+            "nilou"
+          ]
+        },
+        {
+          "internalName": "ningguang",
+          "displayName": "Ningguang",
+          "gameBananaCategoryId": 19496,
+          "imagePath": "Images/Genshin/ningguang.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/ningguang.png",
+          "sha256": "08ea66e43fcd58e1793de18aea9e79082b0c06a127aa2b6f1c895dfc39aeb56f",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "ningguang",
+            "ningguang"
+          ]
+        },
+        {
+          "internalName": "noelle",
+          "displayName": "Noelle",
+          "gameBananaCategoryId": 19466,
+          "imagePath": "Images/Genshin/noelle.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/noelle.png",
+          "sha256": "6fff8209e6facca86b45ba1ee004ddeb4e34567bc1bb94f808f53de8f031c22f",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "noelle",
+            "noelle"
+          ]
+        },
+        {
+          "internalName": "odette",
+          "displayName": "Odette",
+          "gameBananaCategoryId": 48177,
+          "imagePath": "Images/Genshin/odette.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/odette.png",
+          "sha256": "d00672dedbd03fa62eee86f6e5f52c0611d82cddf5f4473c4c52db93d7b5d93b",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "odette",
+            "odette"
+          ]
+        },
+        {
+          "internalName": "ororon",
+          "displayName": "Ororon",
+          "gameBananaCategoryId": 33339,
+          "imagePath": "Images/Genshin/ororon.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/ororon.png",
+          "sha256": "c84ab22515d669f3924982ecd229d042f12a52a071ade85cd4279ec2a87aa633",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "ororon",
+            "ororon"
+          ]
+        },
+        {
+          "internalName": "paimon",
+          "displayName": "Paimon",
+          "gameBananaCategoryId": 20975,
+          "imagePath": "Images/Genshin/paimon.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/paimon.png",
+          "sha256": "a6c4b96e5b2ad2af856e1c6af77b11bd46f48a3eb238f9dd95d22e247e2e38ee",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "paimon",
+            "paimon"
+          ]
+        },
+        {
+          "internalName": "prune",
+          "displayName": "Prune",
+          "gameBananaCategoryId": 45457,
+          "imagePath": "Images/Genshin/prune.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/prune.png",
+          "sha256": "3870e5ab9de0ca6ed0fff3b349dc4922d5ed175de6ed467e95c1f7a8a8a6c438",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "prune",
+            "prune"
+          ]
+        },
+        {
+          "internalName": "qiqi",
+          "displayName": "Qiqi",
+          "gameBananaCategoryId": 19497,
+          "imagePath": "Images/Genshin/qiqi.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/qiqi.png",
+          "sha256": "59a39d0d3ba3306abe7b308b073875585bb05858e68faaa9cf3bbee03a73bac1",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "qiqi",
+            "qiqi"
+          ]
+        },
+        {
+          "internalName": "raiden_shogun",
+          "displayName": "Raiden Shogun",
+          "gameBananaCategoryId": 19498,
+          "imagePath": "Images/Genshin/raiden_shogun.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/raiden_shogun.png",
+          "sha256": "d5592b67af54c46cfe7aa5e226620849652a69e06c71c0fb34c41c3c1d455184",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "raiden_shogun",
+            "raiden shogun"
+          ]
+        },
+        {
+          "internalName": "razor",
+          "displayName": "Razor",
+          "gameBananaCategoryId": 19499,
+          "imagePath": "Images/Genshin/razor.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/razor.png",
+          "sha256": "47bec71b55c68d3d7dad7a474d423e6b2127a0e8d1efb1e4f8a08af166a7e8cc",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "razor",
+            "razor"
+          ]
+        },
+        {
+          "internalName": "rosaria",
+          "displayName": "Rosaria",
+          "gameBananaCategoryId": 19500,
+          "imagePath": "Images/Genshin/rosaria.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/rosaria.png",
+          "sha256": "f458a058e3a70fea6fc2b7d1d1450d9a271b23623400b9d4fc2d097a3e1e0b50",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "rosaria",
+            "rosaria"
+          ]
+        },
+        {
+          "internalName": "sandrone",
+          "displayName": "Sandrone",
+          "gameBananaCategoryId": 47014,
+          "imagePath": "Images/Genshin/sandrone.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/sandrone.png",
+          "sha256": "add373abf9be06122dffb930ed3e6e37bf45741c335498f6fd6f9c2e0631d1ff",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "sandrone",
+            "sandrone"
+          ]
+        },
+        {
+          "internalName": "sangonomiya_kokomi",
+          "displayName": "Sangonomiya Kokomi",
+          "gameBananaCategoryId": 19501,
+          "imagePath": "Images/Genshin/sangonomiya_kokomi.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/sangonomiya_kokomi.png",
+          "sha256": "5324cf7ca1adef3cbcd56cf682a20643191a04a7976d5825f48605dca9bdc767",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "sangonomiya_kokomi",
+            "sangonomiya kokomi"
+          ]
+        },
+        {
+          "internalName": "sayu",
+          "displayName": "Sayu",
+          "gameBananaCategoryId": 19502,
+          "imagePath": "Images/Genshin/sayu.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/sayu.png",
+          "sha256": "6cd3c76f1a594baa1a4c8e7a6819ffa3b83a4e2e16608af229986b4c16ed5c1c",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "sayu",
+            "sayu"
+          ]
+        },
+        {
+          "internalName": "sethos",
+          "displayName": "Sethos",
+          "gameBananaCategoryId": 29730,
+          "imagePath": "Images/Genshin/sethos.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/sethos.png",
+          "sha256": "f334b9dcd2d06fd7b011690de7ded2dae422b041860b3c97c3576cdfc21b7dc5",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "sethos",
+            "sethos"
+          ]
+        },
+        {
+          "internalName": "shenhe",
+          "displayName": "Shenhe",
+          "gameBananaCategoryId": 19503,
+          "imagePath": "Images/Genshin/shenhe.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/shenhe.png",
+          "sha256": "27b4e5f523d876d3ff4d7fc75409919496ea96bb7df1513a26d8adb9beafda63",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "shenhe",
+            "shenhe"
+          ]
+        },
+        {
+          "internalName": "shikanoin_heizou",
+          "displayName": "Shikanoin Heizou",
+          "gameBananaCategoryId": 19504,
+          "imagePath": "Images/Genshin/shikanoin_heizou.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/shikanoin_heizou.png",
+          "sha256": "0756bf6ecc87f111f27b1b5988f5f210cb52d8f107fdcfae0454aae5f4f365e8",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "shikanoin_heizou",
+            "shikanoin heizou"
+          ]
+        },
+        {
+          "internalName": "sigewinne",
+          "displayName": "Sigewinne",
+          "gameBananaCategoryId": 30166,
+          "imagePath": "Images/Genshin/sigewinne.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/sigewinne.png",
+          "sha256": "9b66af62ecb41e8acdaf097a50407c8dbcdd48a71beee82bd0a66b39c8c6e2a9",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "sigewinne",
+            "sigewinne"
+          ]
+        },
+        {
+          "internalName": "skirk",
+          "displayName": "Skirk",
+          "gameBananaCategoryId": 37532,
+          "imagePath": "Images/Genshin/skirk.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/skirk.png",
+          "sha256": "880ab29d801c67daeac004b0cc709426a9af9096a7a3dd395316e1e18ea7ac97",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "skirk",
+            "skirk"
+          ]
+        },
+        {
+          "internalName": "sucrose",
+          "displayName": "Sucrose",
+          "gameBananaCategoryId": 19506,
+          "imagePath": "Images/Genshin/sucrose.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/sucrose.png",
+          "sha256": "54b49bce4bf7775cb28d103545efafc9e15e2f73d5d5dafa44092ef102d68c8b",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "sucrose",
+            "sucrose"
+          ]
+        },
+        {
+          "internalName": "tartaglia",
+          "displayName": "Tartaglia",
+          "gameBananaCategoryId": 19507,
+          "imagePath": "Images/Genshin/tartaglia.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/tartaglia.png",
+          "sha256": "a83e54c361f8a148e670584e21f4b60a54f66dfb5dca691dfd40c4edaa271d40",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "tartaglia",
+            "tartaglia"
+          ]
+        },
+        {
+          "internalName": "thoma",
+          "displayName": "Thoma",
+          "gameBananaCategoryId": 19508,
+          "imagePath": "Images/Genshin/thoma.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/thoma.png",
+          "sha256": "956b01898b417454983b1fc2ed85355e7c4c62fb5fbef6b9cd5979e48b507bbb",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "thoma",
+            "thoma"
+          ]
+        },
+        {
+          "internalName": "tighnari",
+          "displayName": "Tighnari",
+          "gameBananaCategoryId": 19509,
+          "imagePath": "Images/Genshin/tighnari.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/tighnari.png",
+          "sha256": "13354bcd193a1139a81ed391b110a330d412a88896852b5545938110ba6f48e1",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "tighnari",
+            "tighnari"
+          ]
+        },
+        {
+          "internalName": "varesa",
+          "displayName": "Varesa",
+          "gameBananaCategoryId": 35962,
+          "imagePath": "Images/Genshin/varesa.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/varesa.png",
+          "sha256": "188324958626b7026aad7f3131a3267b8aa6862c957d304e77e87735907940c7",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "varesa",
+            "varesa"
+          ]
+        },
+        {
+          "internalName": "varka",
+          "displayName": "Varka",
+          "gameBananaCategoryId": 43740,
+          "imagePath": "Images/Genshin/varka.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/varka.png",
+          "sha256": "88ff7df84f4ab5611f5dcc0983d6aba750af5fc85b47c68da93ec8839a0794c1",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "varka",
+            "varka"
+          ]
+        },
+        {
+          "internalName": "venti",
+          "displayName": "Venti",
+          "gameBananaCategoryId": 19340,
+          "imagePath": "Images/Genshin/venti.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/venti.png",
+          "sha256": "5356e455360c7f166aac6e121a20bc84f467e12bd62a47408849ea2f9a75b4ea",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "venti",
+            "venti"
+          ]
+        },
+        {
+          "internalName": "vesna",
+          "displayName": "Vesna",
+          "gameBananaCategoryId": 49500,
+          "imagePath": "Images/Genshin/vesna.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/vesna.png",
+          "sha256": "ab6d4f56d4cdb886d10028462e48f74cd25a16bd10342986ae96f6e59eeaaac7",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "vesna",
+            "vesna"
+          ]
+        },
+        {
+          "internalName": "vodyanitsa",
+          "displayName": "Vodyanitsa",
+          "gameBananaCategoryId": 49490,
+          "imagePath": "Images/Genshin/vodyanitsa.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/vodyanitsa.png",
+          "sha256": "bd5f6e14a367de6ae1cb114d7f74230db12b71425d320906122511d452b31a72",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "vodyanitsa",
+            "vodyanitsa"
+          ]
+        },
+        {
+          "internalName": "wanderer",
+          "displayName": "Wanderer",
+          "gameBananaCategoryId": 20311,
+          "imagePath": "Images/Genshin/wanderer.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/wanderer.png",
+          "sha256": "b3a145e5110952668b542af692b85bd6c47ea6a7039192cbbaa5671522395af5",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "wanderer",
+            "wanderer"
+          ]
+        },
+        {
+          "internalName": "wriothesley",
+          "displayName": "Wriothesley",
+          "gameBananaCategoryId": 25512,
+          "imagePath": "Images/Genshin/wriothesley.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/wriothesley.png",
+          "sha256": "08bc7a5ad8dcd94f945fd4b4e06c66d0318f3daa8e048ce9e3403632edae2b66",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "wriothesley",
+            "wriothesley"
+          ]
+        },
+        {
+          "internalName": "xiangling",
+          "displayName": "Xiangling",
+          "gameBananaCategoryId": 19511,
+          "imagePath": "Images/Genshin/xiangling.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/xiangling.png",
+          "sha256": "79de93237b914c61fed6ce697f307b4c273bed0e269c7ab2c518a3c6fdaf42db",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "xiangling",
+            "xiangling"
+          ]
+        },
+        {
+          "internalName": "xianyun",
+          "displayName": "Xianyun",
+          "gameBananaCategoryId": 27548,
+          "imagePath": "Images/Genshin/xianyun.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/xianyun.png",
+          "sha256": "3cd64f74a592b3c1ae363a8cb3a10163459b486d70807c0e621e83ef543e2add",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "xianyun",
+            "xianyun"
+          ]
+        },
+        {
+          "internalName": "xiao",
+          "displayName": "Xiao",
+          "gameBananaCategoryId": 19512,
+          "imagePath": "Images/Genshin/xiao.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/xiao.png",
+          "sha256": "b379a663009cb457abb234e7956f965b652b2a316110922dc7e7a99391017379",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "xiao",
+            "xiao"
+          ]
+        },
+        {
+          "internalName": "xilonen",
+          "displayName": "Xilonen",
+          "gameBananaCategoryId": 32435,
+          "imagePath": "Images/Genshin/xilonen.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/xilonen.png",
+          "sha256": "53bb6afde682f890035b68aed318ed942609b4e432f7532e229fe092c0febf86",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "xilonen",
+            "xilonen"
+          ]
+        },
+        {
+          "internalName": "xingqiu",
+          "displayName": "Xingqiu",
+          "gameBananaCategoryId": 19513,
+          "imagePath": "Images/Genshin/xingqiu.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/xingqiu.png",
+          "sha256": "232369d38ff740561dccfaed4cc5035166b379d7b19f5f29f610f718bef57498",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "xingqiu",
+            "xingqiu"
+          ]
+        },
+        {
+          "internalName": "xinyan",
+          "displayName": "Xinyan",
+          "gameBananaCategoryId": 19514,
+          "imagePath": "Images/Genshin/xinyan.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/xinyan.png",
+          "sha256": "15be11288bb8a0517411c26a67b00d76d72c152fef272de4ccbceeebb2187b95",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "xinyan",
+            "xinyan"
+          ]
+        },
+        {
+          "internalName": "yae_miko",
+          "displayName": "Yae Miko",
+          "gameBananaCategoryId": 19515,
+          "imagePath": "Images/Genshin/yae_miko.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/yae_miko.png",
+          "sha256": "82366052a6c7996a26cafcb0822f17718a8e06dfe39e55c9a728e1530d477acc",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "yae_miko",
+            "yae miko"
+          ]
+        },
+        {
+          "internalName": "yanfei",
+          "displayName": "Yanfei",
+          "gameBananaCategoryId": 19516,
+          "imagePath": "Images/Genshin/yanfei.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/yanfei.png",
+          "sha256": "f2eca2c29f799a23442612c91a61be935859ae95f6531020ccd192588ef95748",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "yanfei",
+            "yanfei"
+          ]
+        },
+        {
+          "internalName": "yaoyao",
+          "displayName": "Yaoyao",
+          "gameBananaCategoryId": 21034,
+          "imagePath": "Images/Genshin/yaoyao.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/yaoyao.png",
+          "sha256": "3c0c80d1f2423d6c102594902afb2824b330c6b2f9c50640babcf32a2f7c1a5b",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "yaoyao",
+            "yaoyao"
+          ]
+        },
+        {
+          "internalName": "yelan",
+          "displayName": "Yelan",
+          "gameBananaCategoryId": 19517,
+          "imagePath": "Images/Genshin/yelan.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/yelan.png",
+          "sha256": "10a0267a455ab726d47bd1c4026d7f52633004ec3a2e5ffc8067b2eec459e490",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "yelan",
+            "yelan"
+          ]
+        },
+        {
+          "internalName": "yoimiya",
+          "displayName": "Yoimiya",
+          "gameBananaCategoryId": 19518,
+          "imagePath": "Images/Genshin/yoimiya.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/yoimiya.png",
+          "sha256": "e18e47a123ca0afc38bb9d10b54116d089bddd4b5ab82404e39ece9ba565d693",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "yoimiya",
+            "yoimiya"
+          ]
+        },
+        {
+          "internalName": "yumemizuki_mizuki",
+          "displayName": "Yumemizuki Mizuki",
+          "gameBananaCategoryId": 35144,
+          "imagePath": "Images/Genshin/yumemizuki_mizuki.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/yumemizuki_mizuki.png",
+          "sha256": "f594d0b821b1fa066dd5564b604bd76fc4cdc90e197d7eb5322c21ac55a57530",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "yumemizuki_mizuki",
+            "yumemizuki mizuki"
+          ]
+        },
+        {
+          "internalName": "yun_jin",
+          "displayName": "Yun Jin",
+          "gameBananaCategoryId": 19519,
+          "imagePath": "Images/Genshin/yun_jin.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/yun_jin.png",
+          "sha256": "57cfd6e3e7b388def38e3f11c985399348cc1068316287984409952a60869496",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "yun_jin",
+            "yun jin"
+          ]
+        },
+        {
+          "internalName": "zhongli",
+          "displayName": "Zhongli",
+          "gameBananaCategoryId": 18989,
+          "imagePath": "Images/Genshin/zhongli.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/zhongli.png",
+          "sha256": "43c62352e72cbdc5c730043ca94faa778fa239f3a396ff329f57dc9de8fcfadf",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "zhongli",
+            "zhongli"
+          ]
+        },
+        {
+          "internalName": "zibai",
+          "displayName": "Zibai",
+          "gameBananaCategoryId": 42456,
+          "imagePath": "Images/Genshin/zibai.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/Genshin/zibai.png",
+          "sha256": "380c71dcdea1630486737e3d3abc4cd0178fca2e2a40b81a3551d8e7104c2637",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "zibai",
+            "zibai"
+          ]
+        }
+      ]
+    }
+  }
+}

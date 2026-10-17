@@ -1,0 +1,1 @@
+# Character Asset Pipeline package

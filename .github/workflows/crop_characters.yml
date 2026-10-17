@@ -1,0 +1,59 @@
+name: Sync Character Assets & Icons
+
+on:
+  schedule:
+    - cron: '0 4 * * *' # Run daily at 04:00 UTC
+  workflow_dispatch: # Allow manual trigger
+
+permissions:
+  contents: write
+
+jobs:
+  sync-characters:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install -r tools/character_asset_pipeline/requirements.txt
+
+      - name: Run pipeline unit tests
+        run: |
+          python tools/character_asset_pipeline/test_pipeline.py
+
+      - name: Gatekeeper check
+        id: gatekeeper
+        continue-on-error: true
+        run: |
+          python tools/character_asset_pipeline/crop_character_icons.py --probe-only
+          EXIT_CODE=$?
+          echo "exit_code=$EXIT_CODE" >> "$GITHUB_OUTPUT"
+          exit $EXIT_CODE
+
+      - name: Sync character icons and manifest
+        if: steps.gatekeeper.outputs.exit_code == '2' || github.event_name == 'workflow_dispatch'
+        run: |
+          python tools/character_asset_pipeline/crop_character_icons.py --manifest manifest.json --images-dir Images
+
+      - name: Commit and push changes
+        if: steps.gatekeeper.outputs.exit_code == '2' || github.event_name == 'workflow_dispatch'
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add manifest.json Images/
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "chore(assets): update character icons and manifest [skip ci]"
+            git push
+          fi
