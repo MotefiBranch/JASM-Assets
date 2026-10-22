@@ -345,7 +345,7 @@ def fetch_official_avatar_wiki(
 def align_gb_to_highres(
     gb_bytes: bytes,
     hr_bytes: bytes,
-    min_size: int = 250,
+    min_size: int = 150,
     max_size: int = 1200,
     min_score_threshold: float = 0.80,
 ) -> Tuple[Optional[Image.Image], float]:
