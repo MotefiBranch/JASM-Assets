@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-17T21:05:54Z",
+  "updatedAt": "2026-10-22T18:28:28Z",
   "games": {
     "Endfield": {
       "gameId": 21842,
@@ -1607,6 +1607,38 @@
           "keys": [
             "zhu_yuan",
             "zhu yuan"
+          ]
+        },
+        {
+          "internalName": "phoenix_reffaella",
+          "displayName": "Phoenix Reffaella",
+          "gameBananaCategoryId": 50547,
+          "imagePath": "Images/ZZZ/phoenix_reffaella.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/ZZZ/phoenix_reffaella.png",
+          "sha256": "2c90161dae5dad9ec4ca26ee579696e919d0566702386917d058ff95414f2ded",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "phoenix_reffaella",
+            "phoenix reffaella",
+            "phoenixreffaella",
+            "phoenix",
+            "reffaella"
+          ]
+        },
+        {
+          "internalName": "severian_lowell",
+          "displayName": "Severian Lowell",
+          "gameBananaCategoryId": 50548,
+          "imagePath": "Images/ZZZ/severian_lowell.png",
+          "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/ZZZ/severian_lowell.png",
+          "sha256": "c1b68a5c509a153024d3ef7737e44211fe7eced17fddf42e3ae128b26f9ef965",
+          "assetQuality": "official_avatar",
+          "keys": [
+            "severian_lowell",
+            "severian lowell",
+            "severianlowell",
+            "severian",
+            "lowell"
           ]
         }
       ]

@@ -202,7 +202,8 @@ def generate_manifest_record(
     image_path = f"Images/{game_name}/{internal_name}.png"
 
     slug = re.sub(r"[^\w]", "", name.lower())
-    keys = list(dict.fromkeys([internal_name, name.lower(), slug]))
+    words = [w.lower() for w in re.split(r"[\s_-]+", name.strip()) if len(w) >= 2]
+    keys = list(dict.fromkeys([internal_name, name.lower(), slug] + words))
 
     return {
         "internalName": internal_name,
@@ -271,37 +272,60 @@ def fetch_official_avatar_wiki(
         return None
 
     s = session or requests.Session()
-    candidates = [
+    first_name = re.split(r"[\s_-]+", character_name.strip())[0] if character_name else character_name
+
+    candidates: List[str] = []
+    if game_name == "ZZZ":
+        candidates.extend([
+            f"Agent {character_name} Icon.png",
+            f"Agent {first_name} Icon.png",
+            f"Agent {character_name} Portrait.png",
+        ])
+    elif game_name == "Endfield":
+        candidates.extend([
+            f"Operator {character_name} Icon.png",
+            f"{character_name} Avatar.png",
+        ])
+
+    candidates.extend([
         f"{character_name} Icon.png",
-        f"{character_name} Avatar.png",
+        f"{first_name} Icon.png",
         f"Character {character_name} Icon.png",
         f"{character_name}.png",
-    ]
+    ])
 
-    for title in candidates:
-        try:
-            params = {
-                "action": "query",
-                "titles": f"File:{title}",
-                "prop": "imageinfo",
-                "iiprop": "url|size",
-                "format": "json",
-            }
-            resp = s.get(endpoint, params=params, timeout=10)
-            if resp.status_code != 200:
-                continue
+    unique_candidates = list(dict.fromkeys(candidates))
+    titles_param = "|".join([f"File:{t}" for t in unique_candidates])
+
+    try:
+        params = {
+            "action": "query",
+            "titles": titles_param,
+            "prop": "imageinfo",
+            "iiprop": "url|size",
+            "format": "json",
+        }
+        resp = s.get(endpoint, params=params, timeout=10)
+        if resp.status_code == 200:
             data = resp.json()
             pages = data.get("query", {}).get("pages", {})
+            best_bytes: Optional[bytes] = None
+            max_size = 0
             for page in pages.values():
                 imageinfo = page.get("imageinfo")
                 if imageinfo and len(imageinfo) > 0:
                     img_url = imageinfo[0].get("url")
+                    size = imageinfo[0].get("size", 0)
                     if img_url:
                         img_resp = s.get(img_url, timeout=10)
                         if img_resp.status_code == 200 and len(img_resp.content) > 1000:
-                            return (img_resp.content, "official_avatar")
-        except Exception:
-            continue
+                            if size > max_size:
+                                max_size = size
+                                best_bytes = img_resp.content
+            if best_bytes:
+                return (best_bytes, "official_avatar")
+    except Exception:
+        pass
 
     return None
 
