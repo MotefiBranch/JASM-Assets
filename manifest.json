@@ -861,11 +861,11 @@
           "gameBananaCategoryId": 43004,
           "imagePath": "Images/ZZZ/aria.png",
           "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/ZZZ/aria.png",
-          "sha256": "3f5dc2cb8c603361238e26d26d8b5202119b5c6eee13f9d8b0b4dcd58ab923f6",
-          "assetQuality": "thumbnail",
+          "sha256": "a2acb4387fb6a93cf2739ee1e1e0ff41d800330b3491597819dfdbb26ead8fb4",
+          "assetQuality": "aligned_headshot",
           "keys": [
             "aria",
-            "aria"
+            "43004"
           ]
         },
         {
@@ -978,11 +978,11 @@
           "gameBananaCategoryId": 44398,
           "imagePath": "Images/ZZZ/cissia.png",
           "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/ZZZ/cissia.png",
-          "sha256": "970b216c77cc0d7a999a6c480790fb8d73177ad1c00555e7eb2e232caeeb001e",
-          "assetQuality": "thumbnail",
+          "sha256": "8bbf16e60ef5d79010bd2985552404440e85859f0e438295fc9cedd74cc27c0d",
+          "assetQuality": "aligned_headshot",
           "keys": [
             "cissia",
-            "cissia"
+            "44398"
           ]
         },
         {
@@ -991,11 +991,15 @@
           "gameBananaCategoryId": 49001,
           "imagePath": "Images/ZZZ/claret_flint.png",
           "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/ZZZ/claret_flint.png",
-          "sha256": "e326d66c8cbce0eeb6a90dbe8b6fdb736b5cd23e73e2efc8bd1272fd5999f5d8",
-          "assetQuality": "thumbnail",
+          "sha256": "3724e12c534855daf78fb430c9b4022a4d1932f6059056ed0fc34cc287217745",
+          "assetQuality": "aligned_headshot",
           "keys": [
             "claret_flint",
-            "claret flint"
+            "claret flint",
+            "claretflint",
+            "49001",
+            "claret",
+            "flint"
           ]
         },
         {
@@ -1186,11 +1190,15 @@
           "gameBananaCategoryId": 43311,
           "imagePath": "Images/ZZZ/nangong_yu.png",
           "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/ZZZ/nangong_yu.png",
-          "sha256": "dff78752032a9aaaf2a36d45dd37e418f1781d2694b3d265112b0024798f94cf",
-          "assetQuality": "thumbnail",
+          "sha256": "ceae6c3b72a760604ac3ed1b5e50128ba45dbf64cf1a59c3daefb3830b4b696a",
+          "assetQuality": "aligned_headshot",
           "keys": [
             "nangong_yu",
-            "nangong yu"
+            "nangong yu",
+            "nangongyu",
+            "43311",
+            "nangong",
+            "yu"
           ]
         },
         {
@@ -1225,11 +1233,15 @@
           "gameBananaCategoryId": 46552,
           "imagePath": "Images/ZZZ/norma_hollowell.png",
           "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/ZZZ/norma_hollowell.png",
-          "sha256": "6303b323fb4d9dee6bb64e835eba1bd56675cbb5fddd652fb2ec4a4bdf65e761",
-          "assetQuality": "thumbnail",
+          "sha256": "07674408919f0d9a843c16b17ce40f65b01e47be96016b3c6ae7a0a0e3577879",
+          "assetQuality": "aligned_headshot",
           "keys": [
             "norma_hollowell",
-            "norma hollowell"
+            "norma hollowell",
+            "normahollowell",
+            "46552",
+            "norma",
+            "hollowell"
           ]
         },
         {
@@ -1303,11 +1315,11 @@
           "gameBananaCategoryId": 46646,
           "imagePath": "Images/ZZZ/pyrois.png",
           "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/ZZZ/pyrois.png",
-          "sha256": "cc525464f29ebb02b894f939afde0ce3e11fe081c48282a59a90ff5b0b206667",
-          "assetQuality": "thumbnail",
+          "sha256": "bbd6ad5877a5f5c78b1d05cdc0ffb16e849103e910acd10767c3dcbe2d61dd55",
+          "assetQuality": "aligned_headshot",
           "keys": [
             "pyrois",
-            "pyrois"
+            "46646"
           ]
         },
         {
@@ -1329,11 +1341,15 @@
           "gameBananaCategoryId": 47714,
           "imagePath": "Images/ZZZ/remielle_dan.png",
           "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/ZZZ/remielle_dan.png",
-          "sha256": "3144cd5265cd5c393497253755b3b54785a6606c28c33a8be3de9ce81b80de96",
-          "assetQuality": "thumbnail",
+          "sha256": "029799eda6c411b5df05bfb0609bbf0bcd8ead01c08bd704fedfe87d2e31ab1c",
+          "assetQuality": "aligned_headshot",
           "keys": [
             "remielle_dan",
-            "remielle dan"
+            "remielle dan",
+            "remielledan",
+            "47714",
+            "remielle",
+            "dan"
           ]
         },
         {
@@ -1342,11 +1358,16 @@
           "gameBananaCategoryId": 49002,
           "imagePath": "Images/ZZZ/roxy_ifrita_pryce.png",
           "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/ZZZ/roxy_ifrita_pryce.png",
-          "sha256": "eda4911fcb6a94e9d68d50544fb6f19e6d3094a8789e542b5e8f96a3a1579d61",
-          "assetQuality": "thumbnail",
+          "sha256": "7a8f01ea8bac342f7aa57ec663b4f094fa86bbf4b0726b22dabeb7beb7c53c3e",
+          "assetQuality": "aligned_headshot",
           "keys": [
             "roxy_ifrita_pryce",
-            "roxy ifrita pryce"
+            "roxy ifrita pryce",
+            "roxyifritapryce",
+            "49002",
+            "roxy",
+            "ifrita",
+            "pryce"
           ]
         },
         {
@@ -1381,11 +1402,16 @@
           "gameBananaCategoryId": 47715,
           "imagePath": "Images/ZZZ/sigrid_de_lazur.png",
           "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/ZZZ/sigrid_de_lazur.png",
-          "sha256": "e7ee8c561ccf7c5c76b6f358c687d8455eb8fcbcc3fdd56ed9b80b29f18b293d",
-          "assetQuality": "thumbnail",
+          "sha256": "43e09542c037665d9e148fba3707ace6ce3d45a384d551eebde088abeb5eaffc",
+          "assetQuality": "aligned_headshot",
           "keys": [
             "sigrid_de_lazur",
-            "sigrid de l'azur"
+            "sigrid de l'azur",
+            "sigriddelazur",
+            "47715",
+            "sigrid",
+            "de",
+            "azur"
           ]
         },
         {
@@ -1446,11 +1472,11 @@
           "gameBananaCategoryId": 43003,
           "imagePath": "Images/ZZZ/sunna.png",
           "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/ZZZ/sunna.png",
-          "sha256": "e2b4ac797d073778a893616815d61215c4fdd7c9b2723deddbeea3c40a32d211",
-          "assetQuality": "thumbnail",
+          "sha256": "a3c9bc0163bca1476b6a908a01ee7113734b34ca2fbef45403d44d302a98b511",
+          "assetQuality": "aligned_headshot",
           "keys": [
             "sunna",
-            "sunna"
+            "43003"
           ]
         },
         {
@@ -1472,11 +1498,15 @@
           "gameBananaCategoryId": 46553,
           "imagePath": "Images/ZZZ/velina_airgid.png",
           "imageUrl": "https://raw.githubusercontent.com/MotefiBranch/JASM-Assets/main/Images/ZZZ/velina_airgid.png",
-          "sha256": "0e795ccb7c1cd4ab5db0d2352a7edb0df69dda73889a02cf7af4e8313344258c",
-          "assetQuality": "thumbnail",
+          "sha256": "c697702231159279da0d824d9192d0667ba874a788ffb29d8a703393df8250aa",
+          "assetQuality": "aligned_headshot",
           "keys": [
             "velina_airgid",
-            "velina airgid"
+            "velina airgid",
+            "velinaairgid",
+            "46553",
+            "velina",
+            "airgid"
           ]
         },
         {

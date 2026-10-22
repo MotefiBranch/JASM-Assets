@@ -342,6 +342,114 @@ def fetch_official_avatar_wiki(
     return None
 
 
+def align_gb_to_highres(
+    gb_bytes: bytes,
+    hr_bytes: bytes,
+    min_size: int = 250,
+    max_size: int = 1200,
+    min_score_threshold: float = 0.80,
+) -> Tuple[Optional[Image.Image], float]:
+    """
+    Reverse-engineers the exact headshot crop from a low-resolution GameBanana category thumbnail
+    by performing multi-scale normalized cross-correlation against the high-resolution master art.
+    Returns (256x256 Image, score) if correlation >= min_score_threshold, else (None, score).
+    """
+    try:
+        import cv2
+        import numpy as np
+
+        gb_rgba = cv2.imdecode(np.frombuffer(gb_bytes, np.uint8), cv2.IMREAD_UNCHANGED)
+        hr_rgba = cv2.imdecode(np.frombuffer(hr_bytes, np.uint8), cv2.IMREAD_UNCHANGED)
+
+        if gb_rgba is None or hr_rgba is None:
+            return None, 0.0
+
+        hr_h, hr_w = hr_rgba.shape[:2]
+        upper_h = int(hr_h * 0.65)
+        hr_upper = hr_rgba[0:upper_h, :]
+
+        gb_bgr = gb_rgba[:, :, :3]
+        gb_a = gb_rgba[:, :, 3] if gb_rgba.shape[2] == 4 else np.full(gb_rgba.shape[:2], 255, dtype=np.uint8)
+        hr_bgr = hr_upper[:, :, :3]
+        hr_a = hr_upper[:, :, 3] if hr_upper.shape[2] == 4 else np.full(hr_upper.shape[:2], 255, dtype=np.uint8)
+
+        mask = (gb_a > 30).astype(np.uint8) * 255
+        sh, sw = hr_upper.shape[:2]
+
+        best_score = -1.0
+        best_crop = None
+
+        # Coarse sweep
+        for crop_size in range(min_size, min(max_size, min(sh, sw)), 10):
+            scale = 40.0 / crop_size
+            new_w = int(round(sw * scale))
+            new_h = int(round(sh * scale))
+            if new_w < 40 or new_h < 40:
+                continue
+            scaled_bgr = cv2.resize(hr_bgr, (new_w, new_h), interpolation=cv2.INTER_AREA)
+            scaled_a = cv2.resize(hr_a, (new_w, new_h), interpolation=cv2.INTER_AREA)
+
+            res_bgr = cv2.matchTemplate(scaled_bgr, gb_bgr, cv2.TM_CCORR_NORMED, mask=mask)
+            res_a = cv2.matchTemplate(scaled_a, gb_a, cv2.TM_CCORR_NORMED)
+
+            res_bgr = np.nan_to_num(res_bgr, nan=0.0, posinf=0.0, neginf=0.0)
+            res_a = np.nan_to_num(res_a, nan=0.0, posinf=0.0, neginf=0.0)
+
+            res_total = 0.6 * res_bgr + 0.4 * res_a
+            min_val, max_val, min_loc, max_loc = cv2.minMaxLoc(res_total)
+
+            if max_val > best_score:
+                best_score = max_val
+                orig_x = int(round(max_loc[0] / scale))
+                orig_y = int(round(max_loc[1] / scale))
+                best_crop = (orig_x, orig_y, crop_size)
+
+        if best_crop is None or best_score < min_score_threshold:
+            return None, best_score
+
+        # Fine sweep (step 1px)
+        bx, by, bs = best_crop
+        for crop_size in range(max(min_size, bs - 15), min(max_size, bs + 16), 1):
+            scale = 40.0 / crop_size
+            new_w = int(round(sw * scale))
+            new_h = int(round(sh * scale))
+            if new_w < 40 or new_h < 40:
+                continue
+            scaled_bgr = cv2.resize(hr_bgr, (new_w, new_h), interpolation=cv2.INTER_AREA)
+            scaled_a = cv2.resize(hr_a, (new_w, new_h), interpolation=cv2.INTER_AREA)
+
+            res_bgr = cv2.matchTemplate(scaled_bgr, gb_bgr, cv2.TM_CCORR_NORMED, mask=mask)
+            res_a = cv2.matchTemplate(scaled_a, gb_a, cv2.TM_CCORR_NORMED)
+
+            res_bgr = np.nan_to_num(res_bgr, nan=0.0, posinf=0.0, neginf=0.0)
+            res_a = np.nan_to_num(res_a, nan=0.0, posinf=0.0, neginf=0.0)
+
+            res_total = 0.6 * res_bgr + 0.4 * res_a
+            min_val, max_val, min_loc, max_loc = cv2.minMaxLoc(res_total)
+
+            if max_val > best_score:
+                best_score = max_val
+                orig_x = int(round(max_loc[0] / scale))
+                orig_y = int(round(max_loc[1] / scale))
+                best_crop = (orig_x, orig_y, crop_size)
+
+        pil_hr = Image.open(BytesIO(hr_bytes)).convert("RGBA")
+        x, y, s = best_crop
+
+        x1 = max(0, x)
+        y1 = max(0, y)
+        x2 = min(pil_hr.width, x + s)
+        y2 = min(pil_hr.height, y + s)
+
+        canvas = Image.new("RGBA", (s, s), (0, 0, 0, 0))
+        canvas.paste(pil_hr.crop((x1, y1, x2, y2)), (x1 - x, y1 - y))
+
+        out_256 = canvas.resize((256, 256), Image.Resampling.LANCZOS)
+        return out_256, best_score
+    except Exception:
+        return None, 0.0
+
+
 def fetch_image_and_process(
     cat: CategoryProbeRecord,
     game_name: str,
@@ -349,19 +457,29 @@ def fetch_image_and_process(
 ) -> Optional[Tuple[bytes, str]]:
     """
     Progressive quality fetch:
-    Tier 3: Official wiki avatar
-    Tier 2: Mod showcase render cropped
+    Tier 3: Official wiki avatar reverse-aligned with GameBanana headshot framing
+    Tier 2: Official wiki portrait cropped with face detection
     Tier 1: GameBanana category thumbnail
     """
     s = session or requests.Session()
 
-    # Tier 3 check
+    # Tier 3 & 2: Official wiki fetch
     wiki_result = fetch_official_avatar_wiki(game_name, cat.name, s)
     if wiki_result:
         img_bytes, quality = wiki_result
         try:
+            # Automatic default: transparent lineup against GameBanana headshot
+            if cat.icon_url:
+                gb_resp = s.get(cat.icon_url, timeout=10)
+                if gb_resp.status_code == 200 and len(gb_resp.content) > 100:
+                    aligned_img, score = align_gb_to_highres(gb_resp.content, img_bytes)
+                    if aligned_img is not None and score >= 0.80:
+                        out_buf = BytesIO()
+                        aligned_img.save(out_buf, format="PNG")
+                        return (out_buf.getvalue(), "aligned_headshot")
+
+            # Fallback within wiki art: face detection or resize
             pil_img = Image.open(BytesIO(img_bytes)).convert("RGBA")
-            # If wiki returned vertical portrait art or non-square render, perform headshot crop
             w, h = pil_img.size
             if abs(w - h) > 20 or h > 300:
                 face_box = detect_face_in_image(pil_img)
