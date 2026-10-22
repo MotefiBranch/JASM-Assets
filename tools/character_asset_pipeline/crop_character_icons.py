@@ -59,34 +59,46 @@ def sanitize_internal_name(display_name: str) -> str:
 
 
 def calculate_smart_face_crop(
-    face_box: Tuple[int, int, int, int], img_w: int, img_h: int
+    face_box: Tuple[int, int, int, int], img_w: int, img_h: int, expansion: float = 2.6
 ) -> Tuple[int, int, int, int]:
     """
     Computes a 1:1 square crop area around a detected face box [x, y, w, h].
-    Expands the box to max(w, h) * 2.6 and biases upward by 0.15 * S toward the eyes,
-    leaving 0.8x head clearance at top and 1.8x shoulders below.
+    Expands the box to max(w, h) * expansion and biases slightly toward eye level.
+    Clamps within image boundaries to avoid artificial transparent padding.
     """
     x, y, w, h = face_box
     cx = x + w / 2.0
     cy = y + h / 2.0
 
-    s = int(round(max(w, h) * 2.6))
+    s = int(round(max(w, h) * expansion))
+    s = min(s, min(img_w, img_h))
+
     target_cy = int(round(cy - 0.15 * s))
     target_cx = int(round(cx))
 
     half_s = s // 2
     x1 = target_cx - half_s
     y1 = target_cy - half_s
-    x2 = x1 + s
-    y2 = y1 + s
 
-    return (x1, y1, x2, y2)
+    # Clamp inside image boundaries so we don't introduce empty space above head
+    if y1 < 0:
+        y1 = 0
+    elif y1 + s > img_h:
+        y1 = img_h - s
+
+    if x1 < 0:
+        x1 = 0
+    elif x1 + s > img_w:
+        x1 = img_w - s
+
+    return (x1, y1, x1 + s, y1 + s)
 
 
 def crop_and_resize_face(
     image: Image.Image,
     face_box: Tuple[int, int, int, int],
     target_size: Tuple[int, int] = (256, 256),
+    expansion: float = 2.6,
 ) -> Image.Image:
     """
     Crops the face area with padding if boundaries exceed image dimensions,
@@ -95,7 +107,7 @@ def crop_and_resize_face(
     rgba_img = image.convert("RGBA")
     img_w, img_h = rgba_img.size
 
-    x1, y1, x2, y2 = calculate_smart_face_crop(face_box, img_w, img_h)
+    x1, y1, x2, y2 = calculate_smart_face_crop(face_box, img_w, img_h, expansion=expansion)
     crop_w = x2 - x1
     crop_h = y2 - y1
 
@@ -349,9 +361,19 @@ def fetch_image_and_process(
         img_bytes, quality = wiki_result
         try:
             pil_img = Image.open(BytesIO(img_bytes)).convert("RGBA")
-            pil_img = pil_img.resize((256, 256), Image.Resampling.LANCZOS)
+            # If wiki returned vertical portrait art or non-square render, perform headshot crop
+            w, h = pil_img.size
+            if abs(w - h) > 20 or h > 300:
+                face_box = detect_face_in_image(pil_img)
+                if face_box:
+                    cropped = crop_and_resize_face(pil_img, face_box, (256, 256), expansion=1.5)
+                else:
+                    cropped = pil_img.resize((256, 256), Image.Resampling.LANCZOS)
+            else:
+                cropped = pil_img.resize((256, 256), Image.Resampling.LANCZOS)
+
             out_buf = BytesIO()
-            pil_img.save(out_buf, format="PNG")
+            cropped.save(out_buf, format="PNG")
             return (out_buf.getvalue(), "official_avatar")
         except Exception:
             pass
